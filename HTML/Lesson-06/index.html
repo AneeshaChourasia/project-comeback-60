@@ -1,0 +1,49 @@
+<!--
+==========================================
+HTML Lesson 05
+Topic : Image Map
+Date : 03 July 2026
+==========================================
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Lesson 06 - Image Map</title>
+  </head>
+
+  <body>
+    <h1>Clickable Panda Image</h1>
+    <hr />
+    <img
+      src="./image/panda5.jpg"
+      alt="Adorable baby panda holding green leaves"
+      width="400"
+      height="400"
+      usemap="#pandamap"
+    />
+    <map name="pandamap">
+      <area
+        shape="circle"
+        coords="119,200,80"
+        href="https://en.wikipedia.org/wiki/Giant_panda"
+        alt="Panda Face"
+      />
+    </map>
+
+    <area
+      shape="rect"
+      coords="111,327,154,286"
+      href="https://en.wikipedia.org/wiki/Spectacled_bear"
+      alt="Green Bamboo Leaves"
+    />
+
+    <area
+      shape="poly"
+      coords="111,327,154,286,231,432,274,409,264,479"
+      href="https://en.wikipedia.org/wiki/Ursinae"
+      alt="panda feet"
+    />
+  </body>
+</html>
