@@ -143,6 +143,20 @@ Features
 - RGBA Colors
 - HSL Colors
 
+### JavaScript
+
+#### Lesson 02
+
+- Variables (Deep Dive)
+- Variable Declaration
+- Variable Initialization
+- Variable Reassignment
+- Variable Naming Rules
+- Meaningful Variable Names
+- Camel Case Naming Convention
+- Valid Variable Names
+- Invalid Variable Names
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
