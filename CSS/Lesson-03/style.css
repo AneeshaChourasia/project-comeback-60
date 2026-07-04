@@ -1,0 +1,55 @@
+/* ==========================================
+   CSS Lesson 03 - Colors
+   Project: Artificial Intelligence
+   ========================================== */
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: #fbefef;
+}
+
+/* ID Selector */
+#main-heading {
+  color: rgb(52, 144, 139);
+}
+
+/* Element Selectors */
+h2 {
+  color: rgb(111, 190, 178);
+}
+
+p {
+  color: #444444;
+}
+
+ul {
+  color: #444444;
+}
+
+li {
+  color: #444444;
+}
+
+/* Class Selector */
+.highlight {
+  color: rgba(33, 60, 81, 0.8);
+}
+
+/* Group Selector */
+h1,
+h2,
+p {
+  background-color: transparent;
+}
+
+/* HSL Color Example */
+hr {
+  background-color: hsl(210, 30%, 70%);
+}

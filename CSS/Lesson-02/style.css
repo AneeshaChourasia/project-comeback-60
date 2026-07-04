@@ -1,0 +1,42 @@
+/* Types of Selectors */
+
+/* Universal Selector : Ye page ke har element par CSS apply karta hai. */
+* {
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* HTML Element Selector: Ye HTML tag ke naam se select karta hai. */
+body {
+  background-color: #f8f9fa;
+}
+
+h2 {
+  color: #2e7d32;
+}
+
+li {
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  color: #333333;
+}
+
+/* Class Selector: Class ko multiple elements par use kiya ja sakta hai. (.) */
+.paragraph {
+  color: #555555;
+}
+
+/* ID Selecto: ID ek hi unique element ke liye hoti hai.(#) */
+#Main_Heading {
+  color: #0d47a1;
+}
+
+/* Group Selector:  */
+h1,
+h2 {
+  font-family: Arial, sans-serif;
+}
