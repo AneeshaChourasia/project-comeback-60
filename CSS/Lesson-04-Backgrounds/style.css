@@ -1,0 +1,82 @@
+/* ==========================================================
+   CSS Lesson 04
+   Topic : Backgrounds
+========================================================== */
+
+/* Universal Selector */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+  background-color: #fff8e1;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+/* Main Heading */
+
+h1 {
+  background-color: #2e7d32;
+  color: white;
+  padding: 15px;
+}
+
+/* Sub Heading */
+
+h2 {
+  background-color: #a5d6a7;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Paragraph */
+
+p {
+  background-color: #fffde7;
+  padding: 10px;
+}
+
+/* Practice Section */
+
+.background-demo {
+  height: 600px;
+
+  /* 1. Background Color */
+  background-color: lightblue;
+
+  /* 2. Background Image */
+  background-image: url("./assets/download.jfif");
+
+  /* 3. Background Repeat */
+  background-repeat: no-repeat;
+
+  /* 4. Background Position */
+  background-position: center;
+
+  /* 5. Background Size */
+  background-size: cover;
+
+  /* 6. Background Attachment */
+  background-attachment: scroll;
+
+  margin-top: 20px;
+  padding: 20px;
+  color: white;
+}
+
+.background-demo h3 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.background-demo p {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: black;
+  margin-top: 15px;
+}

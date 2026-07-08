@@ -157,6 +157,60 @@ Features
 - Valid Variable Names
 - Invalid Variable Names
 
+## ✅ Day 3
+
+### HTML
+
+#### Lesson 07
+
+- HTML Tables
+- `<table>`
+- `<tr>`
+- `<th>`
+- `<td>`
+- `border` Attribute
+- Book Store Table
+- Student Report Card Table
+
+### CSS
+
+#### Lesson 04
+
+- Background Color
+- Background Image
+- Background Repeat
+- Background Position
+- Background Size
+- Background Attachment
+
+#### Lesson 05
+
+- Border
+- Border Width
+- Border Style
+- Border Color
+- Border Shorthand
+- Border Radius
+- Border Radius (50%)
+- Individual Borders
+  - border-top
+  - border-right
+  - border-bottom
+  - border-left
+
+#### Lesson 06
+
+- Padding
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+- Padding Shorthand
+  - One Value
+  - Two Values
+  - Three Values
+  - Four Values
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
@@ -177,19 +231,6 @@ A beginner HTML project created to practice:
 | ----- | ------------ |
 | Day 1 | ✅ Completed |
 | Day 2 | ✅ Completed |
-
----
-
-# 🎯 Upcoming Topics
-
-- CSS
-- Flexbox
-- Grid
-- Responsive Design
-- JavaScript DOM
-- ES6
-- React.js
-- Projects
 
 ---
 

@@ -1,0 +1,73 @@
+/* CSS Lesson 05 */
+/* Topic: Border */
+
+/* h1 {
+  border-width: 5px;
+  border-style: solid;
+  border-color: brown;
+} */
+
+/* Question: What is the difference between shorthand and individual border properties?
+
+Answer:
+
+border is a shorthand property that combines border-width, border-style, and border-color into a single line. Individual border properties are written separately and are useful when we want to control each property independently. */
+
+body {
+  background-color: #fdf6ec;
+}
+
+h1 {
+  border: 3px solid brown;
+}
+
+h2 {
+  border: 3px dashed blueviolet;
+}
+
+p {
+  border: 3px dotted palevioletred;
+}
+
+ul {
+  border: 3px double goldenrod;
+}
+
+/* Border Redius */
+.Demo h1 {
+  border: 3px solid palevioletred;
+  border-radius: 15px;
+}
+
+.Demo p {
+  border: 2px solid blueviolet;
+  border-radius: 5px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 5px dotted green;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 190px;
+}
+
+/* Individual Borders */
+
+.individual-border h2 {
+  border: none;
+  border-top: 3px solid red;
+}
+
+.individual-border h3 {
+  border-right: 5px dashed green;
+}
+
+.individual-border h4 {
+  border-bottom: 4px dotted purple;
+}
+
+.individual-border h5 {
+  border-left: 5px double rgb(0, 0, 0);
+}
