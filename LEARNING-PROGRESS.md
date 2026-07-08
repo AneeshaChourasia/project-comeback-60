@@ -45,7 +45,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | ------ | ----------------------------------------- | ------ |
 | 01     | Introduction, Output Methods & Data Types | ✅     |
 | 02     | Variables (Deep Dive)                     | ✅     |
-| 03     | Operators                                 | ⏳     |
+| 03     | Operators                                 | ✅     |
 | 04     | Conditional Statements                    | ⏳     |
 | 05     | Loops                                     | ⏳     |
 | 06     | Functions                                 | ⏳     |

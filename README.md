@@ -225,6 +225,20 @@ Features
 - Greater Than or Equal (>=)
 - Less Than or Equal (<=)
 
+#### Lesson 05
+
+- Logical Operators
+  - Logical AND (&&)
+  - Logical OR (||)
+  - Logical NOT (!)
+
+#### Lesson 06
+
+- Conditional Statements
+  - if
+  - if...else
+  - else if
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
@@ -245,6 +259,8 @@ A beginner HTML project created to practice:
 | ----- | ------------ |
 | Day 1 | ✅ Completed |
 | Day 2 | ✅ Completed |
+| Day 3 | ✅ Completed |
+| Day 4 | ✅ Completed |
 
 ---
 
