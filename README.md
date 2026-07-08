@@ -211,6 +211,20 @@ Features
   - Three Values
   - Four Values
 
+  ### JavaScript
+
+#### Lesson 04
+
+- Comparison Operators
+- Equal To (==)
+- Strict Equal (===)
+- Not Equal (!=)
+- Strict Not Equal (!==)
+- Greater Than (>)
+- Less Than (<)
+- Greater Than or Equal (>=)
+- Less Than or Equal (<=)
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
