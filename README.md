@@ -225,6 +225,61 @@ Features
 - Greater Than or Equal (>=)
 - Less Than or Equal (<=)
 
+  ## ✅ Day 4
+
+### HTML
+
+#### Lesson 08 - Forms
+
+- HTML Forms
+- `<form>` Tag
+- `<label>` Tag
+- `for` Attribute
+- `id` Attribute
+- `name` Attribute
+- `placeholder` Attribute
+
+##### Input Types
+
+- `text`
+- `password`
+- `email`
+- `number`
+- `tel`
+- `date`
+- `radio`
+- `checkbox`
+- `file`
+
+##### Other Form Elements
+
+- `<textarea>`
+- `<select>`
+- `<option>`
+- Submit Button
+- Reset Button
+
+---
+
+### CSS
+
+#### Lesson 07
+
+- Margin
+- `margin-top`
+- `margin-right`
+- `margin-bottom`
+- `margin-left`
+- Margin Shorthand
+  - One Value
+  - Two Values
+  - Three Values
+  - Four Values
+
+---
+
+### JavaScript
+
 #### Lesson 05
 
 - Logical Operators

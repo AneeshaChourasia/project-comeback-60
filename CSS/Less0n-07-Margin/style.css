@@ -1,0 +1,83 @@
+/* CSS Lesson 07 */
+/* Topic : Margin */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf8f4;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  background-color: #7b3f98;
+  color: white;
+  padding: 15px;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #7b3f98;
+}
+
+p,
+ul {
+  margin-top: 15px;
+}
+
+.box {
+  width: 250px;
+  padding: 20px;
+  background-color: #f7d9ff;
+  border: 3px solid #7b3f98;
+}
+
+/* Example 1 */
+
+.top {
+  margin-top: 40px;
+}
+
+/* Example 2 */
+
+.container {
+  display: flex;
+}
+
+.right {
+  margin-right: 80px;
+}
+
+/* Example 3 */
+
+.bottom {
+  margin-bottom: 40px;
+}
+
+/* Example 4 */
+
+.left {
+  margin-left: 80px;
+}
+
+/* Margin Shorthand */
+
+.one {
+  margin: 20px;
+}
+
+.two {
+  margin: 20px 60px;
+}
+
+.three {
+  margin: 20px 40px 60px;
+}
+
+.four {
+  margin: 20px 40px 60px 80px;
+}
