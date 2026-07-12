@@ -294,6 +294,15 @@ Features
   - if...else
   - else if
 
+### ✅ Day 5
+
+#### CSS
+
+- Box Model
+- Width & Height
+- Total Width Calculation
+- Total Height Calculation
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
@@ -305,6 +314,15 @@ A beginner HTML project created to practice:
 - Relative Paths
 - Favicon
 - HTML Structure
+
+#### Project: Smart Library Website
+
+- Header
+- Navigation Bar
+- Hero Section
+- About Section
+- Featured Books Section
+- Membership Section (HTML Completed, CSS In Progress)
 
 ---
 

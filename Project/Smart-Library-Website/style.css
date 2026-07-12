@@ -1,0 +1,238 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #1e3a8a;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 45px;
+}
+
+header p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+nav {
+  background-color: royalblue;
+  padding: 18px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 15px;
+}
+
+nav a:hover {
+  color: rosybrown;
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 700px;
+  max-width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 42px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: #555;
+  width: 70%;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.hero a {
+  text-decoration: none;
+  color: white;
+  background-color: royalblue;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.hero a:hover {
+  background-color: #1e3a8a;
+}
+
+.about {
+  background-color: #d0d9f1;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.about p {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #444;
+}
+
+.books {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.books h2 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.book-card {
+  width: 350px;
+  background-color: white;
+  border: 2px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.book-card h3 {
+  margin: 15px 0;
+  color: #1e3a8a;
+}
+
+.book-card p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.book-card a {
+  text-decoration: none;
+  color: white;
+  background-color: royalblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.book-card a:hover {
+  background-color: #1e3a8a;
+}
+
+.membership-form {
+  background-color: #d0d9f1;
+  padding: 60px 20px;
+}
+
+.membership-form h2 {
+  color: #1e3a8a;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.membership-form p {
+  color: #555;
+  width: 48%;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+form {
+  background-color: #ffffff;
+  width: 60%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.radio-options,
+.checkbox-options {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.radio-options input,
+.checkbox-options input {
+  width: auto;
+  margin: 0;
+}
+
+.radio-options label,
+.checkbox-options label {
+  margin: 0;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: royalblue;
+  color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart-Library-Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/logo.jpg" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>📚 Smart Library</h1>
+
+      <p>Read • Learn • Grow</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Books</a></li>
+        <li><a href="#">Membership</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <img
+          src="./images/hero.jpg"
+          alt="Smart Library"
+          width="500"
+          height="300"
+        />
+
+        <h2>Welcome Smart Library</h2>
+
+        <p>
+          Discover thousands of books, expand your knowledge, and enjoy a
+          peaceful reading experience.
+        </p>
+
+        <a href="#">Join Now</a>
+      </section>
+
+      <!-- About Section -->
+
+      <section class="about">
+        <h2>About Our Library</h2>
+        <p>
+          Smart Library is a modern learning space where students and readers
+          can explore thousands of books, digital resources, and study
+          materials. Our mission is to inspire learning, creativity, and
+          lifelong knowledge for everyone.
+        </p>
+      </section>
+
+      <!-- Featured Books -->
+
+      <section class="books">
+        <h2>Featured Books</h2>
+
+        <div class="book-card">
+          <h3>HTML & CSS Guide</h3>
+
+          <p>
+            Learn the fundamentals of HTML and CSS to build beautiful websites.
+          </p>
+
+          <a href="#">Read More</a>
+        </div>
+
+        <div class="book-card">
+          <h3>JavaScript Essentials</h3>
+
+          <p>
+            Understand JavaScript from beginner to advanced with practical
+            examples.
+          </p>
+
+          <a href="#">Read More</a>
+        </div>
+        <div class="book-card">
+          <h3>Web Design Basics</h3>
+
+          <p>
+            Learn colors, typography, spacing and modern UI design principles.
+          </p>
+
+          <a href="#">Read More</a>
+        </div>
+      </section>
+
+      <!-- Membership -->
+      <section class="membership-form">
+        <h2>Library Membership</h2>
+        <p>
+          Join our library today and explore thousands of books and digital
+          resources.
+        </p>
+
+        <form action="">
+          <label for="userName">Full Name : </label>
+          <input
+            type="text"
+            id="userName"
+            name="userName"
+            placeholder="Enter your Full Name"
+          />
+
+          <label for="email">Email : </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email Address"
+          />
+
+          <label for="number">Phone Number : </label>
+          <input
+            type="tel"
+            id="number"
+            name="phone"
+            placeholder="Enter Phone Number"
+          />
+
+          <label for="age">Age : </label>
+          <input
+            type="number"
+            id="age"
+            name="age"
+            placeholder="Enter Your Age"
+          />
+
+          <label for="membership">Membership : </label>
+          <select name="membarship" id="membership">
+            <option value="">---Select Membership---</option>
+            <option value="student">Student</option>
+            <option value="Teacher">Teacher</option>
+            <option value="General Member">General Member</option>
+          </select>
+
+          <div class="radio-options">
+            <label>Gender</label>
+            <input type="radio" id="male" name="gender" />
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+
+            <input type="radio" id="other" name="gender" />
+            <label for="other">Other</label>
+          </div>
+
+          <div class="checkbox-options">
+            <label>Interests</label>
+            <input type="checkbox" id="fiction" />
+            <label for="fiction">Fiction</label>
+
+            <input type="checkbox" id="technology" />
+            <label for="technology">Technology</label>
+
+            <input type="checkbox" id="history" />
+            <label for="history">History</label>
+
+            <input type="checkbox" id="science" />
+            <label for="science">Science</label>
+          </div>
+
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Why do you want to join our library?"
+            rows="4"
+            cols="50"
+          ></textarea>
+
+          <button type="submit">Join Membership</button>
+          <button type="reset">Clear Form</button>
+        </form>
+      </section>
+      <!-- Contact -->
+
+      <!-- Footer -->
+    </main>
+  </body>
+</html>

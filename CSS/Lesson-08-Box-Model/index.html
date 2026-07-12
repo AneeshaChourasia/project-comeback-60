@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 08 - Box Model</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <h1>Topic : CSS Box Model</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quae ea
+      veniam dignissimos ad nisi reiciendis voluptate nesciunt, veritatis
+      accusamus! Est aut nihil non nesciunt aliquam suscipit, quisquam
+      aspernatur cumque.
+    </p>
+
+    <hr />
+
+    <h2>Total Width Calculation</h2>
+
+    <p>
+      <strong>Formula:</strong><br />
+      Total Width = Content Width + Left Padding + Right Padding + Left Border +
+      Right Border
+    </p>
+
+    <h3>Example</h3>
+
+    <pre>
+       Width : 300px
+       Padding : 20px
+       Border : 5px solid black
+       
+       Calculation:
+       
+       300 + 20 + 20 + 5 + 5 = 350px
+    </pre>
+
+    <hr />
+
+    <h2>Total Height Calculation</h2>
+
+    <p>
+      <strong>Formula:</strong><br />
+      Total Height = Content Height + Top Padding + Bottom Padding + Top Border
+      + Bottom Border
+    </p>
+
+    <h3>Example</h3>
+
+    <pre>
+       Height : 150px
+       Padding : 20px
+       Border : 5px solid black
+       
+       Calculation:
+       
+       150 + 20 + 20 + 5 + 5 = 200px
+    </pre>
+
+    <hr />
+
+    <h2>Important Points</h2>
+
+    <ul>
+      <li>Padding is applied on all four sides.</li>
+      <li>For Total Width, only Left and Right padding & border are added.</li>
+      <li>For Total Height, only Top and Bottom padding & border are added.</li>
+      <li>Margin is NOT included in Total Width or Total Height.</li>
+      <li>By default, width and height apply only to the content area.</li>
+    </ul>
+  </body>
+</html>

@@ -31,7 +31,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 05     | Borders          | ✅     |
 | 06     | Padding          | ✅     |
 | 07     | Margin           | ✅     |
-| 08     | Box Model        | ⏳     |
+| 08     | Box Model        | ✅     |
 | 09     | Display          | ⏳     |
 | 10     | Position         | ⏳     |
 | 11     | Flexbox          | ⏳     |
@@ -67,3 +67,25 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | Pull Requests     | ⏳     |
 
 ---
+
+# Projects
+
+| Project               | Progress       |
+| --------------------- | -------------- |
+| Smart Library Website | 🚧 In Progress |
+
+### Completed Sections
+
+- ✅ Header
+- ✅ Navigation
+- ✅ Hero Section
+- ✅ About Section
+- ✅ Featured Books Section
+- ✅ Membership Section (HTML Completed, CSS In Progress)
+
+### Upcoming Sections
+
+- ⏳ Contact Section
+- ⏳ Footer
+- ⏳ Responsive Design
+- ⏳ JavaScript Features
