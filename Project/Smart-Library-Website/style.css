@@ -236,3 +236,43 @@ button {
   color: white;
   cursor: pointer;
 }
+
+.contact {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.contact p {
+  color: #555;
+  width: 50%;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.contact label {
+  display: block;
+  text-align: left;
+}
+
+.footer {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 50px 20px;
+}
+
+.footer h2 {
+  margin-bottom: 20px;
+}
+
+.copyright {
+  background-color: royalblue;
+  text-align: center;
+  padding: 15px;
+  color: white;
+}

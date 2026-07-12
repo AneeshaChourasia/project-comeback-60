@@ -315,14 +315,16 @@ A beginner HTML project created to practice:
 - Favicon
 - HTML Structure
 
-#### Project: Smart Library Website
+## 📚 Smart Library Website
 
 - Header
 - Navigation Bar
 - Hero Section
 - About Section
 - Featured Books Section
-- Membership Section (HTML Completed, CSS In Progress)
+- Membership Section
+- Contact Section
+- Footer
 
 ---
 
@@ -334,6 +336,7 @@ A beginner HTML project created to practice:
 | Day 2 | ✅ Completed |
 | Day 3 | ✅ Completed |
 | Day 4 | ✅ Completed |
+| Day 5 | ✅ Completed |
 
 ---
 

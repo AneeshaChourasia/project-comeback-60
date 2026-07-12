@@ -81,11 +81,11 @@ This document tracks my complete learning journey throughout the **Project Comeb
 - ✅ Hero Section
 - ✅ About Section
 - ✅ Featured Books Section
-- ✅ Membership Section (HTML Completed, CSS In Progress)
+- ✅ Membership Section
+- ✅ Contact Section
+- ✅ Footer
 
 ### Upcoming Sections
 
-- ⏳ Contact Section
-- ⏳ Footer
 - ⏳ Responsive Design
 - ⏳ JavaScript Features
