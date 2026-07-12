@@ -16,7 +16,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 06     | Image Maps            | ✅     |
 | 07     | Tables                | ✅     |
 | 08     | Forms                 | ✅     |
-| 09     | Semantic HTML         | ⏳     |
+| 09     | Semantic HTML         | ✅     |
 
 ---
 
@@ -32,7 +32,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 06     | Padding          | ✅     |
 | 07     | Margin           | ✅     |
 | 08     | Box Model        | ✅     |
-| 09     | Display          | ⏳     |
+| 09     | Display          | ✅     |
 | 10     | Position         | ⏳     |
 | 11     | Flexbox          | ⏳     |
 | 12     | Grid             | ⏳     |

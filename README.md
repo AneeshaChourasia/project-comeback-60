@@ -296,12 +296,42 @@ Features
 
 ### ✅ Day 5
 
-#### CSS
+### CSS
 
 - Box Model
 - Width & Height
 - Total Width Calculation
 - Total Height Calculation
+
+### ✅ Day 6
+
+### HTML
+
+#### Lesson 09
+
+- Samentic Tags
+  - Header
+  - Nav
+  - Main
+  - Section
+  - Article
+  - Aside
+  - Footer
+
+### CSS
+
+#### Lesson 09
+
+- Learned CSS Display Property
+  - Block
+  - Inline
+  - Inline-Block
+  - None
+
+- Started CSS Position Property
+  - Static
+  - Relative
+  - Absolute (Introduction)
 
 # 📂 Projects
 

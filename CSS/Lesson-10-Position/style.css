@@ -1,0 +1,42 @@
+/* Topic : CSS Position Property */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+}
+
+h1 {
+  background-color: steelblue;
+  color: burlywood;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(80, 158, 121);
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.box1 {
+  position: static;
+}
+
+.box2 {
+  position: relative;
+  top: 20px;
+  left: 500px;
+}
+
+.box3 {
+  position: absolute;
+  left: 0;
+}
