@@ -329,9 +329,28 @@ Features
   - None
 
 - Started CSS Position Property
-  - Static
-  - Relative
+  - position: static
+  - position: relative
   - Absolute (Introduction)
+
+### ✅ Day 7
+
+### CSS
+
+#### Lesson 09
+
+- Position Property
+  - position: absolute
+  - position: fixed
+  - position: sticky
+- z-index
+
+### Java Script
+
+#### Lesson 07
+
+- Ternary Operator
+- Switch Statement
 
 # 📂 Projects
 

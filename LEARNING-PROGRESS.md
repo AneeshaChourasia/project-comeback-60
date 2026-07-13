@@ -33,7 +33,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 07     | Margin           | ✅     |
 | 08     | Box Model        | ✅     |
 | 09     | Display          | ✅     |
-| 10     | Position         | ⏳     |
+| 10     | Position         | ✅     |
 | 11     | Flexbox          | ⏳     |
 | 12     | Grid             | ⏳     |
 
@@ -46,7 +46,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 01     | Introduction, Output Methods & Data Types | ✅     |
 | 02     | Variables (Deep Dive)                     | ✅     |
 | 03     | Operators                                 | ✅     |
-| 04     | Conditional Statements                    | ⏳     |
+| 04     | Conditional Statements                    | ✅     |
 | 05     | Loops                                     | ⏳     |
 | 06     | Functions                                 | ⏳     |
 | 07     | Arrays                                    | ⏳     |

@@ -1,42 +1,133 @@
-/* Topic : CSS Position Property */
+/* CSS Position Property */
 
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  background-color: antiquewhite;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 5px;
+  background: aliceblue;
+  padding: 20px;
 }
 
 h1 {
-  background-color: steelblue;
-  color: burlywood;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin: 30px 0 15px;
 }
 
 .box {
   width: 200px;
   height: 100px;
-  background-color: rgb(80, 158, 121);
+  background: seagreen;
   color: white;
-  margin-bottom: 20px;
   text-align: center;
   line-height: 100px;
+  margin-bottom: 20px;
 }
 
-.box1 {
+/* Static
+Default Position
+top, left work nahi karte
+*/
+
+.static {
   position: static;
 }
 
-.box2 {
+/* Relative
+Original position ke relative move hota hai.
+Original space reserve rehti hai.
+*/
+
+.relative {
   position: relative;
+  left: 100px;
   top: 20px;
-  left: 500px;
 }
 
-.box3 {
+/* Absolute
+Normal flow se bahar aa jata hai.
+Nearest positioned parent ke relative hota hai.
+*/
+
+.parent {
+  width: 500px;
+  height: 250px;
+  border: 3px solid black;
+  margin-top: 40px;
+
+  position: relative;
+}
+
+.absolute {
   position: absolute;
-  left: 0;
+  top: 50px;
+  left: 50px;
+  background: crimson;
+}
+
+/* Fixed
+Browser viewport ke relative hota hai.
+Scroll karne par bhi same jagah rehta hai.
+*/
+
+.fixed {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  width: 100px;
+  height: 60px;
+  line-height: 60px;
+
+  background: royalblue;
+}
+
+/* Sticky
+Pehle relative ki tarah behave karta hai.
+Scroll karne par fixed ki tarah chipak jata hai.
+*/
+
+.sticky {
+  position: sticky;
+  top: 0;
+
+  background: orange;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content {
+  height: 700px;
+  margin-top: 20px;
+}
+
+.content p {
+  margin-bottom: 20px;
+}
+
+.z-index {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+}
+
+.red {
+  background-color: red;
+  top: 1800px;
+  /* left: 100px; */
+  z-index: 1;
+}
+
+.blue {
+  background-color: blue;
+  top: 1800px;
+  z-index: 10;
 }
