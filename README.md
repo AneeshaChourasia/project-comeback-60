@@ -352,6 +352,19 @@ Features
 - Ternary Operator
 - Switch Statement
 
+## ✅ Day 8
+
+### Java Script
+
+#### Lesson 08
+
+- Loops
+  - For loop
+  - While loop
+  - do...while loop
+  - break
+  - continue
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
@@ -386,6 +399,8 @@ A beginner HTML project created to practice:
 | Day 3 | ✅ Completed |
 | Day 4 | ✅ Completed |
 | Day 5 | ✅ Completed |
+| Day 6 | ✅ Completed |
+| Day 7 | ✅ Completed |
 
 ---
 

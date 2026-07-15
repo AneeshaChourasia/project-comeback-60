@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aliceblue;
+  font-family: "Times New Roman", Times, serif;
+  margin: 5px;
+}
+
+h1 {
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+  font-size: 35px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  height: 300px;
+  flex-direction: row;
+  justify-content: space-evenly; /* left to right move "Main Axis"  */
+  align-items: center; /* top to bottom move "Cross Axis" */
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.container div {
+  padding: 10px;
+}

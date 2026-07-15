@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 10 : Audio & Video</title>
+  </head>
+  <body>
+    <h1
+      style="
+        background-color: royalblue;
+        text-align: center;
+        color: white;
+        padding: 20px;
+      "
+    >
+      Audio & Video
+    </h1>
+
+    <!-- Auido Tag -->
+    <h2>Controls Attribute</h2>
+    <p>The controls attribute displays the default audio player controls.</p>
+
+    <audio controls>
+      <source src="./audio/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <br />
+
+    <h2>Autoplay + Muted Attribute</h2>
+    <p>
+      The autoplay attribute automatically starts playing the audio when the
+      page loads.
+    </p>
+    <p>The muted attribute starts the audio without sound.</p>
+
+    <audio controls autoplay muted>
+      <source src="./audio/music.mp3" type="audio/mpeg" />
+    </audio>
+
+    <br />
+
+    <h2>Loop Attribute</h2>
+    <p>The loop attribute plays the audio repeatedly after it ends.</p>
+
+    <audio controls loop>
+      <source src="./audio/music.mp3" type="audio/mpeg" />
+    </audio>
+    <br />
+
+    <!-- Vidoe Tag -->
+    <!-- <video src="./video/intro.mp4"></video> -->
+
+    <h2>Controls Attribute</h2>
+    <p>The controls attribute displays the default video player controls.</p>
+
+    <video controls>
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+
+    <br />
+
+    <h2>Width Attribute</h2>
+    <p>The width attribute sets the width of the video player.</p>
+
+    <video controls width="300">
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+
+    <br />
+
+    <h2>Height Attribute</h2>
+    <p>The height attribute sets the height of the video player.</p>
+
+    <video controls width="300" height="300">
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+
+    <br />
+
+    <h2>Poster Attribute</h2>
+    <p>
+      The poster attribute displays a thumbnail image before the video plays.
+    </p>
+
+    <video controls width="300" height="300" poster="./image/thumbnail.jfif">
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+
+    <br />
+
+    <h2>Autoplay + Muted Attribute</h2>
+    <p>
+      The autoplay attribute automatically starts playing the video when the
+      page loads.
+    </p>
+    <p>The muted attribute starts the video without sound.</p>
+
+    <video controls autoplay muted width="300">
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+
+    <br />
+
+    <h2>Loop Attribute</h2>
+    <p>The loop attribute plays the video repeatedly after it ends.</p>
+
+    <video controls loop width="300">
+      <source src="./video/intro.mp4" type="video/mp4" />
+    </video>
+  </body>
+</html>
