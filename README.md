@@ -354,6 +354,36 @@ Features
 
 ## ✅ Day 8
 
+### HTML
+
+#### Lesson 10
+
+- Learned Audio and Video elements in HTML.
+- Practiced adding multimedia content using:
+  - `<audio>` tag
+  - `<video>` tag
+- Explored important attributes:
+  - controls
+  - autoplay
+  - muted
+  - loop
+  - poster
+  - width and height
+
+### CSS
+
+#### Lesson 11
+
+- Learned CSS Flexbox layout system.
+- Understood:
+  - Flex Container
+  - Flex Items
+  - display: flex
+  - flex-direction
+  - justify-content
+  - align-items
+  - gap property
+
 ### Java Script
 
 #### Lesson 08
@@ -364,6 +394,20 @@ Features
   - do...while loop
   - break
   - continue
+
+## 📅 Day 9 Progress
+
+### Project: Smart Library Website Landing Page
+
+Completed a library website landing page using HTML and CSS.
+
+### Sections Created:
+
+- Header & Navigation
+- Hero Section
+- Library Membership Form
+- Contact Section
+- Footer Section
 
 # 📂 Projects
 

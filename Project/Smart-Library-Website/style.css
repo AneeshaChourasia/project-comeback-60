@@ -32,17 +32,15 @@ nav {
 
 nav ul {
   list-style: none;
-}
-
-nav ul li {
-  display: inline;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
 nav a {
   text-decoration: none;
   color: white;
   padding: 10px;
-  margin: 15px;
 }
 
 nav a:hover {
@@ -51,32 +49,33 @@ nav a:hover {
 }
 
 .hero {
-  text-align: center;
-  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px 20px;
 }
 
 .hero img {
-  width: 700px;
+  width: 70%;
+  height: 60vh;
   max-width: 100%;
   border-radius: 10px;
-  margin-bottom: 30px;
 }
 
-.hero h2 {
+.hero-content h2 {
   font-size: 42px;
   color: #1e3a8a;
   margin-bottom: 20px;
 }
 
-.hero p {
+.hero-content p {
   font-size: 20px;
   color: #555;
-  width: 70%;
-  margin: 0 auto 30px;
   line-height: 1.6;
+  margin-bottom: 30px;
 }
 
-.hero a {
+.hero-content a {
   text-decoration: none;
   color: white;
   background-color: royalblue;
@@ -84,7 +83,7 @@ nav a:hover {
   border-radius: 10px;
 }
 
-.hero a:hover {
+.hero-content a:hover {
   background-color: #1e3a8a;
 }
 
@@ -116,7 +115,14 @@ nav a:hover {
 .books h2 {
   font-size: 36px;
   color: #1e3a8a;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+.books-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
 }
 
 .book-card {
@@ -124,12 +130,12 @@ nav a:hover {
   background-color: white;
   border: 2px solid #dcdcdc;
   border-radius: 10px;
-  padding: 20px;
-  margin: 30px auto;
+  padding: 30px;
 }
 
 .book-card h3 {
-  margin: 15px 0;
+  font-size: 20px;
+  margin-bottom: 15px;
   color: #1e3a8a;
 }
 
@@ -150,6 +156,8 @@ nav a:hover {
   background-color: #1e3a8a;
 }
 
+/* Membership Section */
+
 .membership-form {
   background-color: #d0d9f1;
   padding: 60px 20px;
@@ -165,54 +173,75 @@ nav a:hover {
 .membership-form p {
   color: #555;
   width: 48%;
-  margin: 0 auto 20px;
+  margin: 0 auto 30px;
   font-size: 18px;
   line-height: 1.6;
 }
 
 form {
-  background-color: #ffffff;
-  width: 60%;
-  margin: auto;
-  padding: 10px;
-  border-radius: 8px;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
 }
 
 label {
   display: block;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
   font-weight: bold;
 }
 
-input {
+input,
+select,
+textarea {
   width: 100%;
+  box-sizing: border-box;
   padding: 12px;
   border: 1px solid gray;
   border-radius: 8px;
-  margin-bottom: 20px;
 }
 
+input,
 select {
-  width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  height: 45px;
 }
 
-.radio-options,
+.radio-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radio-options input {
+  width: auto;
+}
+
 .checkbox-options {
   display: flex;
   align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
+  gap: 15px;
 }
 
-.radio-options input,
 .checkbox-options input {
   width: auto;
-  margin: 0;
 }
 
 .radio-options label,
@@ -221,20 +250,26 @@ select {
 }
 
 textarea {
-  width: 100%;
-  padding: 12px;
-  border-radius: 8px;
-  margin-bottom: 20px;
   resize: none;
+  margin-bottom: 10px;
+}
+
+.button-row {
+  display: flex;
+  gap: 20px;
 }
 
 button {
   padding: 12px 20px;
   border: none;
   border-radius: 8px;
-  background: royalblue;
+  background-color: royalblue;
   color: white;
   cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e3a8a;
 }
 
 .contact {
@@ -255,19 +290,87 @@ button {
   font-size: 18px;
   line-height: 1.6;
 }
+
 .contact label {
   display: block;
   text-align: left;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+.contact textarea {
+  resize: none;
+}
+
+.contact button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: royalblue;
+  color: white;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.contact button:hover {
+  background-color: #1e3a8a;
 }
 
 .footer {
   background-color: #1e3a8a;
   color: white;
-  padding: 50px 20px;
+  padding: 40px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
 }
 
 .footer h2 {
+  margin-bottom: 15px;
+}
+
+.footer p {
+  color: #ddd;
+  line-height: 1.6;
+}
+
+.footer h3 {
+  color: white;
   margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer li {
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #93c5fd;
 }
 
 .copyright {
