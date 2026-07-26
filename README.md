@@ -439,7 +439,20 @@ Completed a library website landing page using HTML and CSS.
   - fr unit
   - gap property
 
+### JavaScript
 
+#### Lesson 08
+
+- Learned Functions.
+- Practiced:
+  - Function Declaration
+  - Function Call
+  - Parameters
+  - Arguments
+  - Return Statement
+  - Return with Parameters
+  - Function Expression
+  - Arrow Function
 
 # 📂 Projects
 

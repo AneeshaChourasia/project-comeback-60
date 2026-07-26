@@ -72,7 +72,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 05     | Ternary Operator                          | ✅     |
 | 06     | Switch Statement                          | ✅     |
 | 07     | Loops                                     | ✅     |
-| 08     | Functions                                 | ⏳     |
+| 08     | Functions                                 | ✅     |
 | 09     | Arrays                                    | ⏳     |
 | 10     | Objects                                   | ⏳     |
 | 11     | String Methods                            | ⏳     |
