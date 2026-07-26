@@ -157,6 +157,8 @@ Features
 - Valid Variable Names
 - Invalid Variable Names
 
+---
+
 ## ✅ Day 3
 
 ### HTML
@@ -225,7 +227,9 @@ Features
 - Greater Than or Equal (>=)
 - Less Than or Equal (<=)
 
-  ## ✅ Day 4
+---
+
+## ✅ Day 4
 
 ### HTML
 
@@ -259,8 +263,6 @@ Features
 - Submit Button
 - Reset Button
 
----
-
 ### CSS
 
 #### Lesson 07
@@ -275,8 +277,6 @@ Features
   - Two Values
   - Three Values
   - Four Values
-
----
 
 ### JavaScript
 
@@ -293,6 +293,8 @@ Features
   - if
   - if...else
   - else if
+
+---
 
 ### ✅ Day 5
 
@@ -333,6 +335,8 @@ Features
   - position: relative
   - Absolute (Introduction)
 
+---
+
 ### ✅ Day 7
 
 ### CSS
@@ -351,6 +355,8 @@ Features
 
 - Ternary Operator
 - Switch Statement
+
+---
 
 ## ✅ Day 8
 
@@ -395,6 +401,8 @@ Features
   - break
   - continue
 
+---
+
 ## 📅 Day 9 Progress
 
 ### Project: Smart Library Website Landing Page
@@ -408,6 +416,8 @@ Completed a library website landing page using HTML and CSS.
 - Library Membership Form
 - Contact Section
 - Footer Section
+
+---
 
 ## ✅ Day 10
 
@@ -453,6 +463,8 @@ Completed a library website landing page using HTML and CSS.
   - Return with Parameters
   - Function Expression
   - Arrow Function
+
+---
 
 # 📂 Projects
 
