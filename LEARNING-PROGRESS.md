@@ -18,7 +18,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 08     | Forms                     | ✅     |
 | 09     | Semantic HTML             | ✅     |
 | 10     | Audio & Video             | ✅     |
-| 11     | Iframe                    | ⏳     |
+| 11     | Iframe                    | ✅     |
 | 12     | HTML Entities             | ⏳     |
 | 13     | HTML Symbols & Emojis     | ⏳     |
 | 14     | HTML Meta Tags            | ⏳     |
@@ -41,7 +41,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 09     | Display                        | ✅     |
 | 10     | Position                       | ✅     |
 | 11     | Flexbox                        | ✅     |
-| 12     | Grid                           | ⏳     |
+| 12     | Grid                           | ✅     |
 | 13     | Float & Clear                  | ⏳     |
 | 14     | Overflow                       | ⏳     |
 | 15     | Units (px, %, rem, em, vh, vw) | ⏳     |

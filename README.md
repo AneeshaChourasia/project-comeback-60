@@ -409,6 +409,38 @@ Completed a library website landing page using HTML and CSS.
 - Contact Section
 - Footer Section
 
+## ✅ Day 10
+
+### HTML
+
+#### Lesson 11
+
+- Learned HTML Iframe.
+- Understood:
+  - iframe syntax
+  - src attribute
+  - width and height
+  - title attribute
+  - loading attribute
+  - allowfullscreen attribute
+  - Embed URL
+
+### CSS
+
+#### Lesson 12
+
+- Learned CSS Grid layout system.
+- Understood:
+  - Grid Container
+  - Grid Items
+  - display: grid
+  - grid-template-columns
+  - grid-template-rows
+  - fr unit
+  - gap property
+
+
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
