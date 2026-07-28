@@ -19,7 +19,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 09     | Semantic HTML             | ✅     |
 | 10     | Audio & Video             | ✅     |
 | 11     | Iframe                    | ✅     |
-| 12     | HTML Entities             | ⏳     |
+| 12     | HTML Entities             | ✅     |
 | 13     | HTML Symbols & Emojis     | ⏳     |
 | 14     | HTML Meta Tags            | ⏳     |
 | 15     | HTML Accessibility Basics | ⏳     |
@@ -42,7 +42,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 10     | Position                       | ✅     |
 | 11     | Flexbox                        | ✅     |
 | 12     | Grid                           | ✅     |
-| 13     | Float & Clear                  | ⏳     |
+| 13     | Float & Clear                  | ✅     |
 | 14     | Overflow                       | ⏳     |
 | 15     | Units (px, %, rem, em, vh, vw) | ⏳     |
 | 16     | CSS Fonts                      | ⏳     |
@@ -73,17 +73,19 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 06     | Switch Statement                          | ✅     |
 | 07     | Loops                                     | ✅     |
 | 08     | Functions                                 | ✅     |
-| 09     | Arrays                                    | ⏳     |
-| 10     | Objects                                   | ⏳     |
-| 11     | String Methods                            | ⏳     |
-| 12     | Number & Math Methods                     | ⏳     |
-| 13     | Date Object                               | ⏳     |
-| 14     | DOM Manipulation                          | ⏳     |
-| 15     | Events                                    | ⏳     |
-| 16     | Form Validation                           | ⏳     |
-| 17     | ES6 Basics                                | ⏳     |
-| 18     | Local Storage                             | ⏳     |
-| 19     | Mini Projects                             | ⏳     |
+| 09     | Arrays Basics                             | ✅     |
+| 10     | Array Methods (Basic)                     | 🔄     |
+| 11     | Advanced Arrays                           | ⏳     |
+| 12     | Objects                                   | ⏳     |
+| 13     | String Methods                            | ⏳     |
+| 14     | Number & Math Methods                     | ⏳     |
+| 15     | Date Object                               | ⏳     |
+| 16     | DOM Manipulation                          | ⏳     |
+| 17     | Events                                    | ⏳     |
+| 18     | Form Validation                           | ⏳     |
+| 19     | ES6 Basics                                | ⏳     |
+| 20     | Local Storage                             | ⏳     |
+| 21     | Mini Projects                             | ⏳     |
 
 ---
 

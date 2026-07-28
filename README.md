@@ -488,6 +488,48 @@ Advanced Concepts
 
 ---
 
+## ✅ Day 12
+
+### HTML
+
+#### Lesson 12
+
+- HTML Entities
+- `&copy;`
+- `&reg;`
+- `&amp;`
+- `&lt;`
+- `&gt;`
+
+### CSS
+
+#### Lesson 13
+
+- Float Property
+- Clear Property
+- `float: left`
+- `float: right`
+- `clear: both`
+
+### JavaScript
+
+#### Lesson 10
+
+- Arrays Basics
+- Array Indexing
+- Accessing & Updating Values
+- Array Length
+- Last Element Access
+- Array Methods:
+  - `push()`
+  - `pop()`
+  - `shift()`
+  - `unshift()`
+  - `includes()`
+  - `indexOf()`
+
+---
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
