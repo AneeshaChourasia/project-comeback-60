@@ -305,6 +305,8 @@ Features
 - Total Width Calculation
 - Total Height Calculation
 
+---
+
 ### ✅ Day 6
 
 ### HTML
@@ -466,6 +468,26 @@ Completed a library website landing page using HTML and CSS.
 
 ---
 
+## ✅ Day 11
+
+### JavaScript
+
+#### Lesson 08
+
+Advanced Concepts
+
+- Scope
+  - Global Scope
+  - Local Scope
+
+- Hoisting
+  - Function Declaration hoisting
+  - Function Expression hoisting
+
+- Callback Function
+
+---
+
 # 📂 Projects
 
 ## 🐼 Panda Gallery
@@ -493,15 +515,19 @@ A beginner HTML project created to practice:
 
 # 📈 GitHub Progress
 
-| Day   | Status       |
-| ----- | ------------ |
-| Day 1 | ✅ Completed |
-| Day 2 | ✅ Completed |
-| Day 3 | ✅ Completed |
-| Day 4 | ✅ Completed |
-| Day 5 | ✅ Completed |
-| Day 6 | ✅ Completed |
-| Day 7 | ✅ Completed |
+| Day    | Status       |
+| ------ | ------------ |
+| Day 01 | ✅ Completed |
+| Day 02 | ✅ Completed |
+| Day 03 | ✅ Completed |
+| Day 04 | ✅ Completed |
+| Day 05 | ✅ Completed |
+| Day 06 | ✅ Completed |
+| Day 07 | ✅ Completed |
+| Day 08 | ✅ Completed |
+| Day 09 | ✅ Completed |
+| Day 10 | ✅ Completed |
+| Day 11 | ✅ Completed |
 
 ---
 

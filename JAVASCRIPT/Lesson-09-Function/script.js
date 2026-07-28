@@ -32,7 +32,6 @@ function add() {
 
 console.log(add());
 
-
 function multiply() {
   return 5 * 4;
 }
@@ -69,3 +68,46 @@ const hello = () => {
 };
 
 hello();
+
+// Types of Scope :-
+
+// 1. Global Scope
+
+let city = "Bhopal";
+
+function showCity() {
+  console.log(city);
+}
+
+showCity();
+
+// 2. Local Scope
+
+function student() {
+  let name = "Aneesha Chourasia";
+  console.log(name);
+}
+
+student();
+console.log(name);
+
+function student() {
+  let name = "Aneesha";
+}
+
+student();
+
+console.log(name);
+console.log("Hello");
+
+// CallBack Function
+
+function displayMessage(message) {
+  console.log("Welcome to " + message);
+}
+
+function executeFunction(callback) {
+  callback("JavaScript");
+}
+
+executeFunction(displayMessage);
