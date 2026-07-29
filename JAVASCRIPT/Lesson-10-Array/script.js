@@ -88,3 +88,103 @@ console.log(movies.indexOf("PK"));
 console.log(movies.indexOf("Bahubali"));
 
 console.log(movies.indexOf("3 Idiots"));
+
+// slice() = Copy karta hai (Original array change nahi hota.)
+
+let subject = ["Maths", "Physics", "Chemistry", "Hindi", "English"];
+
+console.log(subject);
+
+console.log(subject.slice(1, 4));
+
+console.log(subject.slice(2)); // Start index se lekar last element tak copy karega.
+
+console.log(subject.slice(-2)); // Negative index end se count karta hai.
+
+// splice() = original array ko change (modify) karta hai.
+
+// 1. Remove Example
+let games = ["Cricket", "Football", "Hockey", "Tennis", "Chess"];
+
+games.splice(1, 2);
+
+console.log(games);
+
+//2. Add Example
+
+let animals = ["Lion", "Tiger", "Elephant"];
+
+animals.splice(1, 0, "Zebra");
+
+console.log(animals);
+
+// 3. Replace Example
+
+let laptops = ["HP", "Dell", "Lenovo", "Acer"];
+
+laptops.splice(2, 1, "Asus");
+
+console.log(laptops);
+
+// concat() =  method ka use do ya usse zyada arrays ko combine (merge) karne ke liye hota hai.
+
+let frontend = ["HTML", "CSS"];
+
+let backend = ["Node.js", "MongoDB"];
+
+let fullStack = frontend.concat(backend);
+
+console.log(fullStack);
+
+// Example Merge 2 array
+
+let fruit = ["Apple", "Mango"];
+
+let vegetables = ["Potato", "Tomato"];
+
+let basket = fruit.concat(vegetables);
+
+console.log(fruit);
+
+console.log(vegetables);
+
+console.log(basket);
+
+// Example Merge 3 Array
+
+let moviesList = ["3 Idiots", "Dangal"];
+
+let musicList = ["Arijit Songs", "KK Songs"];
+
+let hobbyList = ["Photography"];
+
+let entertainment = moviesList.concat(
+  musicList,
+  hobbyList,
+  "Gaming",
+  "Traveling",
+);
+
+console.log(entertainment);
+
+//  join()
+
+let days = ["Mon", "Tue", "Wed"];
+
+console.log(days.join(" | "));
+
+// reverse()
+
+let marks = [50, 60, 70, 80];
+
+marks.reverse();
+
+console.log(marks);
+
+// sort()
+
+let names = ["Riya", "Ankit", "Zoya", "Deep"];
+
+names.sort();
+
+console.log(names);

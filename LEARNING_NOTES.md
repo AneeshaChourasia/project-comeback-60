@@ -1,0 +1,408 @@
+# 📖 Learning Notes
+
+This document contains my complete day-wise learning journey for **Project Comeback 60**.
+
+---
+
+# 📅 Day-wise Learning
+
+## ✅ Day 1
+
+### HTML
+
+- HTML Introduction
+- HTML Structure
+- Headings
+- Paragraphs
+- Lists
+- Mini HTML Practice
+
+### CSS
+
+- CSS Introduction
+- Inline CSS
+- Internal CSS
+- External CSS
+- CSS Comments
+- CSS Selectors Basics
+
+### JavaScript
+
+- JavaScript Introduction
+- Output Methods
+  - console.log()
+  - alert()
+  - document.write()
+- Variables
+  - var
+  - let
+- Data Types
+  - String
+  - Number
+  - Boolean
+  - Undefined
+  - Null
+
+---
+
+## ✅ Day 2
+
+### HTML
+
+#### Lesson 04
+
+- Hyperlinks
+- Anchor Tag
+- External Links
+- Internal Links
+- Target Attribute
+- Mailto Link
+
+#### Lesson 05
+
+- Images
+- Image Paths
+- Relative Path
+- alt Attribute
+- width
+- height
+- Favicon
+
+### 🐼 Mini Project
+
+**Cute Panda Gallery**
+
+Features:
+
+- Panda Images
+- Favicon
+- Meaningful Alt Text
+- Organized Folder Structure
+
+#### Lesson 06
+
+- Image Maps
+- usemap
+- map
+- area
+- shape
+  - circle
+  - rect
+  - poly
+- coords
+- href
+- target
+
+### CSS
+
+#### Lesson 02
+
+- Universal Selector
+- Element Selector
+- Class Selector
+- ID Selector
+- Group Selector
+
+#### Lesson 03
+
+- color
+- background-color
+- Color Names
+- HEX
+- RGB
+- RGBA
+- HSL
+
+### JavaScript
+
+#### Lesson 02
+
+- Variables (Deep Dive)
+- Declaration
+- Initialization
+- Reassignment
+- Naming Rules
+- Camel Case
+- Valid & Invalid Names
+
+---
+
+## ✅ Day 3
+
+### HTML
+
+- Tables
+- table
+- tr
+- th
+- td
+- border
+- Book Store Table
+- Student Report Card
+
+### CSS
+
+- Background
+- Border
+- Padding
+
+### JavaScript
+
+- Comparison Operators
+- ==
+- ===
+- !=
+- !==
+- >
+- <
+- > =
+- <=
+
+---
+
+## ✅ Day 4
+
+### HTML
+
+- Forms
+- Input Types
+- textarea
+- select
+- option
+- Submit Button
+- Reset Button
+
+### CSS
+
+- Margin
+- Margin Shorthand
+
+### JavaScript
+
+- Logical Operators
+- if
+- if...else
+- else if
+
+---
+
+## ✅ Day 5
+
+### CSS
+
+- Box Model
+- Width
+- Height
+- Total Width Calculation
+- Total Height Calculation
+
+---
+
+## ✅ Day 6
+
+### HTML
+
+- Semantic HTML
+  - Header
+  - Nav
+  - Main
+  - Section
+  - Article
+  - Aside
+  - Footer
+
+### CSS
+
+- Display
+- Position (Introduction)
+
+---
+
+## ✅ Day 7
+
+### CSS
+
+- Position
+  - Absolute
+  - Fixed
+  - Sticky
+- z-index
+
+### JavaScript
+
+- Ternary Operator
+- Switch Statement
+
+---
+
+## ✅ Day 8
+
+### HTML
+
+- Audio
+- Video
+- controls
+- autoplay
+- muted
+- loop
+- poster
+
+### CSS
+
+- Flexbox
+- Flex Container
+- Flex Items
+- flex-direction
+- justify-content
+- align-items
+- gap
+
+### JavaScript
+
+- Loops
+- for
+- while
+- do...while
+- break
+- continue
+
+---
+
+## ✅ Day 9
+
+### Project
+
+📚 Smart Library Website
+
+Completed:
+
+- Header
+- Navigation
+- Hero
+- Membership Form
+- Contact
+- Footer
+
+---
+
+## ✅ Day 10
+
+### HTML
+
+- Iframe
+- src
+- width
+- height
+- title
+- loading
+- allowfullscreen
+- Embed URL
+
+### CSS
+
+- Grid
+- Grid Container
+- Grid Items
+- grid-template-columns
+- grid-template-rows
+- fr
+- gap
+
+### JavaScript
+
+- Functions
+- Parameters
+- Arguments
+- Return
+- Function Expression
+- Arrow Function
+
+---
+
+## ✅ Day 11
+
+### JavaScript
+
+Advanced Functions
+
+- Scope
+  - Global
+  - Local
+- Hoisting
+- Callback Function
+
+---
+
+## ✅ Day 12
+
+### HTML
+
+- HTML Entities
+- &copy;
+- &reg;
+- &amp;
+- &lt;
+- &gt;
+
+### CSS
+
+- Float
+- Clear
+- float:left
+- float:right
+- clear:both
+
+### JavaScript
+
+- Arrays Basics
+- Array Indexing
+- Updating Values
+- Array Length
+- Last Element
+- push()
+- pop()
+- shift()
+- unshift()
+- includes()
+- indexOf()
+
+---
+
+## ✅ Day 13
+
+### HTML
+
+- HTML Symbols & Emojis
+- HTML Entity Codes
+- Copyright Symbol
+- Registered Symbol
+- Trademark Symbol
+- Currency Symbols
+- Less Than Symbol
+- Greater Than Symbol
+- Emoji Unicode Values
+
+### CSS
+
+- CSS Overflow
+- overflow: visible
+- overflow: hidden
+- overflow: scroll
+- overflow: auto
+- overflow-x
+- overflow-y
+- white-space: nowrap
+
+### JavaScript
+
+- Arrays (Basics + Methods)
+
+- Array Methods:
+  - slice()
+  - splice()
+  - concat()
+  - join()
+  - reverse()
+  - sort()
+
+---

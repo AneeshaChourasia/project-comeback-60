@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* All boxes side by side */
+body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Heading full width */
+h1 {
+  width: 100%;
+}
+
+/* Common box styling */
+.visible-box,
+.hidden-box,
+.scroll-box,
+.auto-box,
+.horizontal-box,
+.vertical-box {
+  width: 400px;
+  height: 200px;
+
+  border: 2px solid black;
+  padding: 15px;
+
+  box-sizing: border-box;
+}
+
+/* Overflow Visible */
+.visible-box {
+  overflow: visible;
+}
+
+/* Overflow Hidden */
+.hidden-box {
+  overflow: hidden;
+}
+
+/* Overflow Scroll */
+.scroll-box {
+  overflow: scroll;
+}
+
+/* Overflow Auto */
+.auto-box {
+  overflow: auto;
+}
+
+/* Horizontal Overflow */
+.horizontal-box {
+  overflow-x: scroll;
+}
+
+.horizontal-box p {
+  white-space: nowrap;
+}
+
+/* Vertical Overflow */
+.vertical-box {
+  overflow-y: scroll;
+}
