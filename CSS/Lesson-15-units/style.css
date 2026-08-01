@@ -1,0 +1,136 @@
+/* Root Font Size */
+
+html {
+  font-size: 16px;
+}
+
+/* Body */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+/* Heading */
+
+h1 {
+  font-size: 40px;
+  color: royalblue;
+}
+
+h2 {
+  margin-top: 40px;
+}
+
+/* -------------------------------- */
+/* 1. PX Unit */
+/* -------------------------------- */
+
+.pixels {
+  width: 300px;
+  height: 200px;
+
+  border: 2px solid black;
+  background-color: lightblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+
+  margin-top: 20px;
+}
+
+/* -------------------------------- */
+/* 2. Percentage Unit */
+/* -------------------------------- */
+
+.parent {
+  width: 600px;
+  height: 300px;
+
+  border: 2px solid black;
+}
+
+.child {
+  width: 50%;
+  height: 100px;
+
+  background-color: lightgreen;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------- */
+/* 3. EM Unit */
+/* -------------------------------- */
+
+.parent-em {
+  font-size: 20px;
+}
+
+.child-em {
+  font-size: 2em;
+}
+
+.child-em-small {
+  font-size: 1.5em;
+}
+
+/* -------------------------------- */
+/* 4. REM Unit */
+/* -------------------------------- */
+
+.rem-heading {
+  font-size: 2rem;
+}
+
+.rem-one {
+  font-size: 1rem;
+}
+
+.rem-two {
+  font-size: 1.5rem;
+}
+
+.rem-three {
+  font-size: 2rem;
+}
+
+/* -------------------------------- */
+/* 5. VW Unit */
+/* -------------------------------- */
+
+.vw-box {
+  width: 50vw;
+  height: 100px;
+
+  background-color: lightcoral;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------------------------------- */
+/* 6. VH Unit */
+/* -------------------------------- */
+
+.hero {
+  height: 100vh;
+
+  background-color: lightgoldenrodyellow;
+  border: 2px solid black;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}

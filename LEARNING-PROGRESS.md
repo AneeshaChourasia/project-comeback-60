@@ -21,7 +21,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 11     | Iframe                    | ✅     |
 | 12     | HTML Entities             | ✅     |
 | 13     | HTML Symbols & Emojis     | ✅     |
-| 14     | HTML Meta Tags            | ⏳     |
+| 14     | HTML Meta Tags            | ✅     |
 | 15     | HTML Accessibility Basics | ⏳     |
 
 ---
@@ -44,8 +44,8 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 12     | Grid                           | ✅     |
 | 13     | Float & Clear                  | ✅     |
 | 14     | Overflow                       | ✅     |
-| 15     | Units (px, %, rem, em, vh, vw) | ⏳     |
-| 16     | Fonts                          | ⏳     |
+| 15     | Units (px, %, rem, em, vh, vw) | ✅     |
+| 16     | Fonts                          | ✅     |
 | 17     | Text                           | ⏳     |
 | 18     | Icons                          | ⏳     |
 | 19     | Links                          | ⏳     |
@@ -74,7 +74,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 07     | Loops                                     | ✅     |
 | 08     | Functions                                 | ✅     |
 | 09     | Arrays (Basics + Methods)                 | ✅     |
-| 10     | Advanced Arrays                           | ⏳     |
+| 10     | Advanced Arrays                           | ✅     |
 | 11     | Objects                                   | ⏳     |
 | 12     | String Methods                            | ⏳     |
 | 13     | Number & Math Methods                     | ⏳     |

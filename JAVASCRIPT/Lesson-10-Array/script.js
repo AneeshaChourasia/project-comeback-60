@@ -188,3 +188,42 @@ let names = ["Riya", "Ankit", "Zoya", "Deep"];
 names.sort();
 
 console.log(names);
+
+// find() = array.find(parameter => condition);
+// "Value (Element)"
+
+let students = ["Rahul", "Priya", "Aman", "Riya"];
+
+console.log(students.find((student) => student === "Aman"));
+
+let studentMarks = [35, 42, 55, 68, 80];
+
+console.log(studentMarks.find((mark) => mark > 50));
+
+// findIndex() = Index (Position)
+
+console.log(studentMarks.findIndex((mark) => mark > 50));
+
+// filter() = All matching element
+
+let employeeSalary = [25000, 40000, 18000, 55000, 30000];
+
+console.log(employeeSalary.filter((emp) => emp > 19000));
+
+console.log(employeeSalary.filter((emp) => emp < 1000)); // no match so output empty []
+
+// map() = Change EVERY item into something new
+
+let products = ["Laptop", "Mouse", "Keyboard", "Monitor"];
+
+let productList = products.map((product) => "🛒 " + product + " - Buy Now");
+
+console.log(productList);
+
+// forEach()
+
+let planets = ["Mercury", "Venus", "Earth", "Mars"];
+
+planets.forEach((planet) => {
+  console.log(planet);
+});

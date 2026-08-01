@@ -1,0 +1,116 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page Heading */
+
+h1 {
+  background-color: #7b2cbf;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 2rem;
+}
+
+/* Section Headings */
+
+h2 {
+  margin: 30px 10px 15px;
+  color: #7b2cbf;
+  font-size: 28px;
+}
+
+/* Common Paragraph Style */
+
+p {
+  margin: 15px 10px;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+/* Font Family */
+
+.paragraph1 {
+  font-family: serif;
+}
+
+.paragraph2 {
+  font-family: sans-serif;
+}
+
+.paragraph3 {
+  font-family: monospace;
+}
+
+.paragraph4 {
+  font-family: cursive;
+}
+
+.paragraph5 {
+  font-family: fantasy;
+}
+
+/* Font Weight */
+
+h3 {
+  margin: 12px 10px;
+  font-size: 24px;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
+/* Font Variant */
+
+.variant-normal {
+  font-variant: normal;
+}
+
+.smallcaps {
+  font-variant: small-caps;
+}
+
+/* Font Shorthand 
+  Syntax:
+    font: font-style font-variant font-weight font-size font-family;
+   */
+
+.shorthand {
+  font:
+    italic small-caps bold 30px Georgia,
+    serif;
+  margin: 20px 10px;
+}

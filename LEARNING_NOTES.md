@@ -406,3 +406,46 @@ Advanced Functions
   - sort()
 
 ---
+
+## ✅ Day 14
+
+### HTML
+
+- HTML Meta Tags
+- charset
+- viewport
+- description
+- keywords
+- author
+
+### CSS
+
+#### CSS Units
+
+- px
+- %
+- em
+- rem
+- vh
+- vw
+
+#### CSS Font Properties
+
+- font-family
+- font-size
+- font-weight
+- font-style
+- font-variant
+- Font Shorthand Property
+
+### JavaScript
+
+#### Advanced Arrays
+
+- find()
+- findIndex()
+- filter()
+- map()
+- forEach()
+
+---
