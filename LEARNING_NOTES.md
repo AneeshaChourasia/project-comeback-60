@@ -449,3 +449,17 @@ Advanced Functions
 - forEach()
 
 ---
+
+## ✅ Day 15
+
+### Project
+
+📚 Smart Library Website
+
+- Created proper project folder structure.
+- Worked on JavaScript Arrays for project data.
+- Designed About Page using HTML and CSS.
+- Created different sections and layouts for About Page.
+- Updated README and Progress Tracker.
+
+---

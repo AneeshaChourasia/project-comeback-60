@@ -54,14 +54,8 @@ I upload my code daily on GitHub, build mini projects, and continuously improve 
 
 Completed:
 
-- ✅ Header
-- ✅ Navigation
-- ✅ Hero Section
-- ✅ About Section
-- ✅ Featured Books
-- ✅ Membership Form
-- ✅ Contact Section
-- ✅ Footer
+- ✅ Home page
+- ✅ About Page
 
 Upcoming:
 
@@ -90,6 +84,7 @@ Upcoming:
 | Day 12 | ✅     |
 | Day 13 | ✅     |
 | Day 14 | ✅     |
+| Day 15 | ✅     |
 
 ---
 

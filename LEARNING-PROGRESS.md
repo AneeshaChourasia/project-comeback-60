@@ -114,13 +114,27 @@ This document tracks my complete learning journey throughout the **Project Comeb
 
 ### ✅ Completed
 
+## Home Page
+
 - Header
 - Navigation
 - Hero Section
-- About Section
 - Featured Books Section
 - Membership Section
 - Contact Section
+- Footer
+
+## About Web Page
+
+- Header
+- About Hero Section
+- About Our Library Section
+- Library Categories Section
+- Mission & Vision Section
+- Library Highlights Section
+- Library Gallery Section
+- Why Choose Smart Library Section
+- Join Our Library CTA Section
 - Footer
 
 ### ⏳ Upcoming
