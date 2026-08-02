@@ -90,16 +90,19 @@ This document tracks my complete learning journey throughout the **Project Comeb
 
 # Git & GitHub
 
-| Topic               | Status |
-| ------------------- | ------ |
-| Git Basics          | ⏳     |
-| Git Commands        | ⏳     |
-| GitHub Account      | ✅     |
-| Repository Creation | ✅     |
-| Commit & Push       | ✅     |
-| Branches            | ⏳     |
-| Merge               | ⏳     |
-| Pull Requests       | ⏳     |
+| Topic                 | Status |
+| --------------------- | ------ |
+| Git Basics            | ⏳     |
+| Git Commands          | ⏳     |
+| GitHub Account        | ✅     |
+| Repository Creation   | ✅     |
+| Commit & Push         | ✅     |
+| GitHub Profile Setup  | ✅     |
+| README Documentation  | ✅     |
+| Repository Management | ✅     |
+| Branches              | ⏳     |
+| Merge                 | ⏳     |
+| Pull Requests         | ⏳     |
 
 ---
 
