@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 30px;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.title {
+  text-align: center;
+  color: royalblue;
+}
+
+/* 1. Color */
+
+.color-demo {
+  color: crimson;
+}
+
+/* 2. Text Align */
+
+.align-demo {
+  text-align: center;
+}
+
+/* 3. Text Decoration */
+
+.decoration-demo {
+  text-decoration: none;
+}
+
+/* 4. Text Transform */
+
+.uppercase-demo {
+  text-transform: uppercase;
+}
+
+.lowercase-demo {
+  text-transform: lowercase;
+}
+
+.capitalize-demo {
+  text-transform: capitalize;
+}
+
+/* 5. Text Indent */
+
+.indent-demo {
+  text-indent: 50px;
+}
+
+/* 6. Letter Spacing */
+
+.letter-demo {
+  letter-spacing: 5px;
+}
+
+/* 7. Word Spacing */
+
+.word-demo {
+  word-spacing: 10px;
+}
+
+/* 8. Line Height */
+
+.line-demo {
+  line-height: 2;
+}
+
+/* 9. Text Shadow */
+
+/* text-shadow: X-axis  Y-axis  Blur  Color
+X-axis → Left (-) / Right (+)
+Y-axis → Up (-) / Down (+) */
+
+.shadow-demo {
+  text-shadow: 2px 2px 5px gray;
+}

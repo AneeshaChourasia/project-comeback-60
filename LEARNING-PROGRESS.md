@@ -22,7 +22,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 12     | HTML Entities             | ✅     |
 | 13     | HTML Symbols & Emojis     | ✅     |
 | 14     | HTML Meta Tags            | ✅     |
-| 15     | HTML Accessibility Basics | ⏳     |
+| 15     | HTML Accessibility Basics | ✅     |
 
 ---
 
@@ -46,9 +46,9 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 14     | Overflow                       | ✅     |
 | 15     | Units (px, %, rem, em, vh, vw) | ✅     |
 | 16     | Fonts                          | ✅     |
-| 17     | Text                           | ⏳     |
-| 18     | Icons                          | ⏳     |
-| 19     | Links                          | ⏳     |
+| 17     | Text                           | ✅     |
+| 18     | Icons                          | ✅     |
+| 19     | Links                          | ✅     |
 | 20     | Lists                          | ⏳     |
 | 21     | Tables                         | ⏳     |
 | 22     | Pseudo Classes                 | ⏳     |
@@ -75,7 +75,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 | 08     | Functions                                 | ✅     |
 | 09     | Arrays (Basics + Methods)                 | ✅     |
 | 10     | Advanced Arrays                           | ✅     |
-| 11     | Objects                                   | ⏳     |
+| 11     | Objects                                   | 🔄     |
 | 12     | String Methods                            | ⏳     |
 | 13     | Number & Math Methods                     | ⏳     |
 | 14     | Date Object                               | ⏳     |

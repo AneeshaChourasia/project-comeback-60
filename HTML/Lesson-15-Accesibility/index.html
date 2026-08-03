@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 15 : HTML Accessibility Basics</title>
+  </head>
+
+  <body>
+    <!-- Semantic Header -->
+    <header>
+      <h1>HTML Accessibility Basics</h1>
+    </header>
+
+    <!-- Semantic Navigation -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+      <section>
+        <h2>Accessible Images</h2>
+
+        <img
+          src="student.jpg"
+          alt="Student reading a book in a library"
+          title="Student Reading"
+        />
+
+        <img
+          src="pizza.jpg"
+          alt="Cheese pizza with vegetables"
+          title="Delicious Pizza"
+        />
+
+        <img src="logo.png" alt="Smart Library Logo" title="Smart Library" />
+
+        <!-- Decorative Image -->
+        <img src="flower.png" alt="" />
+      </section>
+
+      <section>
+        <h2>Accessible Form</h2>
+
+        <form>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+
+          <br /><br />
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <br /><br />
+
+          <button title="Click to submit the form">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Semantic Footer -->
+    <footer>
+      <p>&copy; 2026 Smart Library</p>
+    </footer>
+  </body>
+</html>

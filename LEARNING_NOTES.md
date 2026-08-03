@@ -478,3 +478,27 @@ Advanced Functions
 
 ---
 
+## ✅ Day 17 (03 Aug 2026)
+
+### HTML
+
+- HTML Accessibility Basics
+- Importance of Accessibility
+- `alt` Attribute
+- Decorative Images
+
+### CSS
+
+- Text Properties
+- Font Awesome Icons
+- Link States (`:link`, `:visited`, `:hover`, `:active`)
+
+### JavaScript
+
+- Objects
+- Object Syntax
+- Dot Notation
+- Bracket Notation
+- Update, Add and Delete Properties
+
+---
