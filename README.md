@@ -4,7 +4,7 @@
 
 Welcome to **Project Comeback 60**!
 
-This is my 60-day web development learning journey. My goal is to become a skilled Frontend Developer by learning HTML, CSS, JavaScript, Git, GitHub, and modern web development concepts through daily practice.
+This is my 60-day Frontend Development learning journey. My goal is to become a skilled Frontend Developer by learning HTML, CSS, JavaScript, Git, GitHub, and modern web development concepts through daily practice.
 
 I upload my code daily on GitHub, build mini projects, and continuously improve my coding skills.
 
@@ -24,11 +24,39 @@ I upload my code daily on GitHub, build mini projects, and continuously improve 
 
 # 🛠️ Technologies
 
-- HTML5 _(Learning)_
+- HTML5 _(Completed Core Learning)_
 - CSS3 _(Learning)_
 - JavaScript _(Learning)_
-- Git
+- Git _(Learning)_
 - GitHub
+
+---
+
+# 📂 Repository Structure
+
+```text
+Project-Comeback-60
+
+│
+├── HTML
+│   └── HTML Lessons
+│
+├── CSS
+│   └── CSS Lessons
+│
+├── JavaScript
+│   └── JavaScript Lessons
+│
+├── Practice
+│   └── Daily HTML + CSS + JavaScript Practice
+│
+├── Projects
+│   └── Real World Projects
+│
+├── README.md
+├── LEARNING_NOTES.md
+└── LEARNING_PROGRESS.md
+```
 
 ---
 
@@ -39,30 +67,56 @@ I upload my code daily on GitHub, build mini projects, and continuously improve 
 
 ---
 
+# 🎯 Learning Workflow (From Day 18)
+
+Every learning day follows this workflow:
+
+1. Learn Theory
+2. Understand Syntax
+3. Practice Small Examples
+4. Build a Theme-Based Practice Page
+5. Apply Previous + New Concepts
+6. Update Learning Notes
+7. Update Progress Tracker
+8. Commit & Push to GitHub
+
+---
+
+# 📂 Practice Folder
+
+From **Day 18**, HTML core learning has been completed.
+
+HTML is now used to build practical webpage structures while learning CSS and JavaScript.
+
+Each practice folder includes:
+
+- HTML Structure
+- Previous CSS Revision
+- New CSS Concepts
+- JavaScript Practice
+- Real-world UI Design
+
+---
+
 # 📂 Projects
-
-## 🐼 Panda Gallery
-
-- HTML Images
-- Alt Text
-- Relative Paths
-- Favicon
 
 ## 📚 Smart Library Website
 
 **Status:** 🚧 In Progress
 
-Completed:
+### ✅ Completed
 
-- ✅ Home page
-- ✅ About Page
+- Home Page
+- About Page
 
-Upcoming:
+### ⏳ Upcoming
 
-- ⏳ Responsive Design
-- ⏳ JavaScript Functionality
-- ⏳ Form Validation
-- ⏳ Deployment
+- Responsive Design
+- JavaScript Functionality
+- Form Validation
+- Mobile Navigation
+- Final Testing
+- Deployment
 
 ---
 
@@ -92,24 +146,27 @@ Upcoming:
 
 # 💡 Skills Gained
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 - Git & GitHub
-- Mini Projects
 - Problem Solving
+- Mini Projects
+- Clean Coding
 - Daily Coding Discipline
+- GitHub Documentation
 
 ---
 
 # 🌟 Challenge Rules
 
-- ✅ Code every day
+- ✅ Learn every day
+- ✅ Practice every day
 - ✅ Push code to GitHub daily
 - ✅ Build mini projects
-- ✅ Learn by practice
-- ✅ Write clean code
+- ✅ Write clean and readable code
 - ✅ Stay consistent
+- ✅ Improve one step every day
 
 ---
 

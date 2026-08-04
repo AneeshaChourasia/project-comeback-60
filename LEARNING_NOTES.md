@@ -502,3 +502,42 @@ Advanced Functions
 - Update, Add and Delete Properties
 
 ---
+
+## ✅ Day 18 (04 Aug 2026)
+
+### CSS
+
+#### Lists
+
+- list-style-type
+- list-style-position
+- list-style-image
+- list-style
+
+#### Tables
+
+- border-collapse
+- border-spacing
+- caption-side
+- empty-cells
+- table-layout
+
+### JavaScript
+
+#### Objects (Completed)
+
+- Object Methods
+- Nested Objects
+- Object.keys()
+- Object.values()
+- Object.entries()
+- for...in Loop
+
+### Practice
+
+📚 Student Dashboard
+
+- HTML Structure
+- CSS Lists
+- CSS Tables
+- JavaScript Objects

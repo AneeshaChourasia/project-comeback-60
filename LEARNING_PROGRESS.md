@@ -26,6 +26,20 @@ This document tracks my complete learning journey throughout the **Project Comeb
 
 ---
 
+## 📌 HTML Status
+
+✅ HTML Core Learning Completed
+
+From Day 18 onwards, HTML will be used for:
+
+- Daily Practice
+- CSS Implementation
+- JavaScript DOM Practice
+- Mini Projects
+- Real World Projects
+
+---
+
 # CSS
 
 | Lesson | Topic                          | Status |
@@ -108,16 +122,15 @@ This document tracks my complete learning journey throughout the **Project Comeb
 
 # Projects
 
-| Project               | Technology | Status         |
-| --------------------- | ---------- | -------------- |
-| Panda Gallery         | HTML       | ✅ Completed   |
-| Smart Library Website | HTML + CSS | 🚧 In Progress |
+| Project               | Technology              | Status         |
+| --------------------- | ----------------------- | -------------- |
+| Smart Library Website | HTML + CSS + JavaScript | 🚧 In Progress |
 
 ## 📚 Smart Library Website Progress
 
 ### ✅ Completed
 
-## Home Page
+### Home Page
 
 - Header
 - Navigation
@@ -127,7 +140,7 @@ This document tracks my complete learning journey throughout the **Project Comeb
 - Contact Section
 - Footer
 
-## About Web Page
+### About Web Page
 
 - Header
 - About Hero Section
@@ -148,6 +161,40 @@ This document tracks my complete learning journey throughout the **Project Comeb
 - Mobile Navigation
 - Final Testing
 - Deployment
+
+---
+
+# 🎯 Practice Workflow (From Day 18)
+
+From Day 18 onwards, every learning day includes one practical webpage.
+
+Each practice contains:
+
+- HTML Structure
+- Previous CSS Revision
+- New CSS Concepts
+- JavaScript Practice
+- Real World Layout
+
+Practice folders are stored inside:
+
+```text
+Practice/
+```
+
+Each practice folder contains:
+
+- index.html
+- style.css
+- script.js
+
+This helps improve:
+
+- HTML Speed
+- CSS Design Skills
+- JavaScript Logic
+- Frontend Development Skills
+- Project Building Experience
 
 ---
 
