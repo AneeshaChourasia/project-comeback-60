@@ -539,11 +539,39 @@ Advanced Functions
 - Object Methods
 - this keyword
 
-### Practice
+---
 
-📚 Student Dashboard
+## ✅ Day 19 (05 Aug 2026)
 
-- HTML Structure
-- CSS Lists
-- CSS Tables
-- JavaScript Objects
+### CSS
+
+- Pseudo Classes
+  - :hover
+  - :active
+  - :focus
+  - :first-child
+  - :last-child
+  - :nth-child()
+  - :checked
+  - :disabled
+  - :enabled
+  - :link
+  - :visited
+  - :not()
+
+### JavaScript
+
+- String Methods (Part 1)
+  - length
+  - toUpperCase()
+  - toLowerCase()
+  - trim()
+
+### Extra Practice
+
+- HTML Debugging
+- CSS Debugging
+- JavaScript Debugging
+- Output Prediction
+- Escape Room Challenge
+- Interview-style Questions

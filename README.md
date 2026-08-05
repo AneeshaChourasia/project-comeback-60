@@ -142,6 +142,7 @@ Each practice folder includes:
 | Day 16 | ✅     |
 | Day 17 | ✅     |
 | Day 18 | ✅     |
+| Day 19 | ✅     |
 
 ---
 
