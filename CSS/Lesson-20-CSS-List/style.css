@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40px;
+  background: #f5f5f5;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: blueviolet;
+  color: white;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+/* ---------------------------- */
+/* list-style-type */
+/* ---------------------------- */
+
+.disc {
+  list-style-type: disc;
+  margin-left: 40px;
+}
+
+.circle {
+  list-style-type: circle;
+  margin-left: 40px;
+}
+
+.square {
+  list-style-type: square;
+  margin-left: 40px;
+}
+
+.roman {
+  list-style-type: upper-roman;
+  margin-left: 40px;
+}
+
+.alpha {
+  list-style-type: upper-alpha;
+  margin-left: 40px;
+}
+
+/* ---------------------------- */
+/* list-style-position */
+/* ---------------------------- */
+
+.outside {
+  width: 350px;
+  list-style-position: outside;
+  margin-left: 40px;
+}
+
+.inside {
+  width: 350px;
+  list-style-position: inside;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+/* ---------------------------- */
+/* list-style-image */
+/* ---------------------------- */
+
+.image-list {
+  margin-left: 40px;
+  padding-left: 30px;
+  /* list-style-image: url("./assets/star.png"); */
+}
+
+/* ---------------------------- */
+/* shorthand */
+/* ---------------------------- */
+
+.short-hand {
+  margin-left: 40px;
+
+  list-style: square inside;
+}
+
+/* ---------------------------- */
+/* Navigation */
+/* ---------------------------- */
+
+.navbar {
+  display: flex;
+
+  justify-content: center;
+
+  gap: 40px;
+
+  list-style: none;
+
+  background: royalblue;
+
+  padding: 15px;
+}
+
+.navbar a {
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: yellow;
+}

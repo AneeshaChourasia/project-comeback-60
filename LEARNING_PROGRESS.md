@@ -63,8 +63,8 @@ From Day 18 onwards, HTML will be used for:
 | 17     | Text                           | ✅     |
 | 18     | Icons                          | ✅     |
 | 19     | Links                          | ✅     |
-| 20     | Lists                          | ⏳     |
-| 21     | Tables                         | ⏳     |
+| 20     | Lists                          | ✅     |
+| 21     | Tables                         | ✅     |
 | 22     | Pseudo Classes                 | ⏳     |
 | 23     | Pseudo Elements                | ⏳     |
 | 24     | Transitions                    | ⏳     |
@@ -89,7 +89,7 @@ From Day 18 onwards, HTML will be used for:
 | 08     | Functions                                 | ✅     |
 | 09     | Arrays (Basics + Methods)                 | ✅     |
 | 10     | Advanced Arrays                           | ✅     |
-| 11     | Objects                                   | 🔄     |
+| 11     | Objects                                   | ✅     |
 | 12     | String Methods                            | ⏳     |
 | 13     | Number & Math Methods                     | ⏳     |
 | 14     | Date Object                               | ⏳     |

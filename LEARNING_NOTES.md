@@ -512,26 +512,32 @@ Advanced Functions
 - list-style-type
 - list-style-position
 - list-style-image
-- list-style
+- list-style (Shorthand)
 
 #### Tables
 
+- border
 - border-collapse
 - border-spacing
 - caption-side
 - empty-cells
 - table-layout
+- vertical-align
+- :nth-child()
+- :hover
+- Responsive Table
 
 ### JavaScript
 
 #### Objects (Completed)
 
-- Object Methods
-- Nested Objects
 - Object.keys()
 - Object.values()
 - Object.entries()
 - for...in Loop
+- Nested Objects
+- Object Methods
+- this keyword
 
 ### Practice
 
