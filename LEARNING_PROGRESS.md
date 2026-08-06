@@ -66,7 +66,7 @@ From Day 18 onwards, HTML will be used for:
 | 20     | Lists                          | ✅     |
 | 21     | Tables                         | ✅     |
 | 22     | Pseudo Classes                 | ✅     |
-| 23     | Pseudo Elements                | ⏳     |
+| 23     | Pseudo Elements                | ✅     |
 | 24     | Transitions                    | ⏳     |
 | 25     | Transform                      | ⏳     |
 | 26     | Animations                     | ⏳     |

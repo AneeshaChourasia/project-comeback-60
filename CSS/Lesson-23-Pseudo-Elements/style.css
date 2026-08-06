@@ -1,0 +1,76 @@
+/* ================= Common Styling ================= */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 30px;
+}
+
+hr {
+  margin: 30px 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+  padding: 15px;
+}
+
+/* ================= ::before ================= */
+
+.skills p::before {
+  content: "✔ ";
+  color: green;
+}
+
+/* ================= ::after ================= */
+
+p::after {
+  content: "🚀";
+  color: royalblue;
+  font-size: 20px;
+  margin-left: 8px;
+}
+
+/* ================= ::first-letter ================= */
+
+p::first-letter {
+  font-size: 32px;
+  color: royalblue;
+}
+
+/* ================= ::first-line ================= */
+
+p {
+  text-align: justify;
+  line-height: 1.6;
+}
+
+p::first-line {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  text-transform: uppercase;
+}
+
+/* ================= ::selection ================= */
+p::selection {
+  background-color: rgb(225, 65, 153);
+  color: white;
+}
+
+/* ================= ::marker ================= */
+
+ul li::marker {
+  color: royalblue;
+  font-size: 22px;
+}
+
+ol li::marker {
+  color: rgb(81, 81, 180);
+  font-size: 20px;
+}

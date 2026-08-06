@@ -575,3 +575,28 @@ Advanced Functions
 - Output Prediction
 - Escape Room Challenge
 - Interview-style Questions
+
+---
+
+## ✅ Day 19 (06 Aug 2026)
+
+### CSS
+
+- ::before
+- ::after
+- ::first-letter
+- ::first-line
+- ::selection
+- ::marker
+
+### JavaScript
+
+- String Methods (Part 2)
+  - includes()
+  - startsWith()
+  - endsWith()
+  - replace()
+  - replaceAll()
+  - slice()
+
+---
