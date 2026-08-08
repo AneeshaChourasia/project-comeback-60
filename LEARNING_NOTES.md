@@ -622,3 +622,31 @@ Advanced Functions
 - Reviewed Navigation UI and hover effects
 
 ---
+
+## ✅ Day 22 (08 Aug 2026)
+
+### HTML Catch-Up
+
+- `<picture>` and `<source>`
+- `<details>` and `<summary>`
+- `<dialog>` and `open` attribute
+- `<colgroup>` and `<col>`
+- `span`
+- `colspan`
+- `rowspan`
+- `<br>`
+- `<hr>`
+
+### CSS
+
+- Coding Test — ✅ Complete
+
+### JavaScript
+
+- Coding Test — ✅ Complete
+
+### Interview Preparation
+
+- 5 Interview Questions & Answers — ✅ Complete
+
+---

@@ -26,17 +26,24 @@ This document tracks my complete learning journey throughout the **Project Comeb
 
 ---
 
-## 📌 HTML Status
+## 📌 HTML Catch-Up — Completed
 
-✅ HTML Core Learning Completed
+The remaining commonly used HTML concepts were covered as a catch-up without changing the original HTML lesson numbering.
 
-From Day 18 onwards, HTML will be used for:
+### Topics Covered
 
-- Daily Practice
-- CSS Implementation
-- JavaScript DOM Practice
-- Mini Projects
-- Real World Projects
+- `<picture>` and `<source>`
+- `<details>` and `<summary>`
+- `<dialog>` and `open` attribute
+- `<colgroup>` and `<col>`
+- `span` with `<col>`
+- `colspan`
+- `rowspan`
+
+### HTML Status
+
+✅ HTML Core Learning Completed  
+✅ HTML Catch-Up Completed
 
 ---
 
@@ -136,9 +143,10 @@ From Day 18 onwards, HTML will be used for:
 - Navigation
 - Hero Section
 - Featured Books Section
-- Membership Section
+- Membership CTA Section
 - Contact Section
 - Footer
+- UI Improvements
 
 ### About Web Page
 
@@ -199,3 +207,5 @@ This helps improve:
 ---
 
 ⭐ **This document is updated regularly as I continue my Project Comeback 60 journey.**
+
+

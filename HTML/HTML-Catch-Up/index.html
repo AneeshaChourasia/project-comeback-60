@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Catch Up</title>
+  </head>
+  <body>
+    <!-- ==================== -->
+    <!-- Picture + Source -->
+    <!-- ==================== -->
+
+    <h2>Responsive Image</h2>
+
+    <picture>
+      <source media="(min-width: 1000px)" srcset="library-large.jpg" />
+      <source media="(min-width: 600px)" srcset="library-medium.jpg" />
+
+      <img src="library-small.jpg" alt="Smart Library" />
+    </picture>
+
+    <br />
+    <hr />
+
+    <!-- ==================== -->
+    <!-- Details + Summary -->
+    <!-- ==================== -->
+
+    <h2>Library Membership Benefits</h2>
+
+    <details>
+      <summary>View Membership Benefits</summary>
+
+      <ul>
+        <li>Access to thousands of books</li>
+        <li>Digital learning resources</li>
+        <li>Peaceful reading environment</li>
+      </ul>
+    </details>
+
+    <br />
+    <hr />
+
+    <!-- ==================== -->
+    <!-- Dialog -->
+    <!-- ==================== -->
+
+    <h2>Library Information</h2>
+
+    <dialog open>
+      <h3>Library Information</h3>
+
+      <p>
+        Smart Library provides access to thousands of books and digital learning
+        resources.
+      </p>
+
+      <button type="button">Close</button>
+    </dialog>
+
+    <br />
+    <hr />
+
+    <!-- ==================== -->
+    <!-- Table + Colgroup -->
+    <!-- ==================== -->
+
+    <h2>Smart Library Books</h2>
+
+    <table border="1">
+      <caption>
+        Library Books
+      </caption>
+
+      <colgroup>
+        <col span="1" style="background-color: lightgray" />
+        <col />
+        <col />
+        <col />
+      </colgroup>
+
+      <thead>
+        <tr>
+          <th>Book Name</th>
+          <th>Author</th>
+          <th>Category</th>
+          <th>Availability</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>Atomic Habits</td>
+          <td>James Clear</td>
+          <td>Self Help</td>
+          <td>Available</td>
+        </tr>
+
+        <tr>
+          <td>Clean Code</td>
+          <td>Robert C. Martin</td>
+          <td rowspan="2">Programming</td>
+          <td>Available</td>
+        </tr>
+
+        <tr>
+          <td>The Pragmatic Programmer</td>
+          <td>Andrew Hunt</td>
+          <td>Issued</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <td colspan="4">Total Books: 3</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
