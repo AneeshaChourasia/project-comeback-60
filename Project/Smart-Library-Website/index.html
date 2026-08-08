@@ -6,6 +6,10 @@
     <title>Smart-Library-Website</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="icon" href="./images/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
   </head>
 
   <body>
@@ -30,22 +34,24 @@
     <main>
       <!-- Hero Section -->
       <section class="hero">
-        <img
-          src="./images/hero.jpg"
-          alt="Smart Library"
-          width="500"
-          height="300"
-        />
-
         <div class="hero-content">
-          <h2>Welcome Smart Library</h2>
+          <h1>Welcome to <span>Smart Library</span></h1>
 
           <p>
             Discover thousands of books, expand your knowledge, and enjoy a
             peaceful reading experience.
           </p>
 
-          <a href="./pages/membership.html">Join Now</a>
+          <div class="hero-buttons">
+            <a href="./pages/membership.html" class="btn-primary">
+              <i class="fa-solid fa-book-open"></i>
+              Join Membership
+            </a>
+            <a href="./pages/books.html" class="btn-secondary">
+              Explore Books
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
         </div>
       </section>
 
@@ -56,9 +62,14 @@
         <p>
           Smart Library is a modern learning space where students and readers
           can explore thousands of books, digital resources, and study
-          materials. Our mission is to inspire learning, creativity, and
-          lifelong knowledge for everyone.
+          materials. We provide a peaceful environment to learn, discover new
+          ideas, and grow their knowledge through reading. Our goal is to make
+          learning more accessible and enjoyable for every reader.
         </p>
+        <a class="about-btn" href="about.html">
+          Learn More
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
       </section>
 
       <!-- Featured Books -->
@@ -68,6 +79,7 @@
 
         <div class="books-container">
           <div class="book-card">
+            <i class="fa-brands fa-html5 book-icon"></i>
             <h3>HTML & CSS Guide</h3>
 
             <p>
@@ -79,6 +91,7 @@
           </div>
 
           <div class="book-card">
+            <i class="fa-brands fa-js book-icon"></i>
             <h3>JavaScript Essentials</h3>
 
             <p>
@@ -89,6 +102,7 @@
             <a href="#">Read More</a>
           </div>
           <div class="book-card">
+            <i class="fa-solid fa-palette book-icon"></i>
             <h3>Web Design Basics</h3>
 
             <p>
@@ -98,6 +112,7 @@
             <a href="#">Read More</a>
           </div>
           <div class="book-card">
+            <i class="fa-brands fa-react book-icon"></i>
             <h3>React Basics</h3>
 
             <p>
@@ -107,174 +122,27 @@
             <a href="#">Read More</a>
           </div>
           <div class="book-card">
+            <i class="fa-brands fa-github book-icon"></i>
             <h3>Git & GitHub</h3>
 
-            <p>
-              Understand version control and collaborate on projects using Git
-              and GitHub.
-            </p>
+            <p>Learn version control and collaborate using Git and GitHub.</p>
 
             <a href="#">Read More</a>
           </div>
         </div>
       </section>
 
-      <!-- Membership -->
-      <section class="membership-form">
-        <h2>Library Membership</h2>
+      <!-- Membership CTA -->
+
+      <section class="membership-cta">
+        <h2>Join Our Library Membership</h2>
 
         <p>
-          Join our library today and explore thousands of books and digital
-          resources.
+          Become a member and get access to thousands of books, digital
+          resources, and a peaceful learning environment.
         </p>
 
-        <form action="">
-          <!-- Row 1 -->
-          <div class="form-row">
-            <div class="form-group">
-              <label for="userName">Full Name :</label>
-              <input
-                type="text"
-                id="userName"
-                name="userName"
-                placeholder="Enter your Full Name"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Email :</label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter Email Address"
-              />
-            </div>
-          </div>
-
-          <!-- Row 2 -->
-          <div class="form-row">
-            <div class="form-group">
-              <label for="number">Phone Number :</label>
-              <input
-                type="tel"
-                id="number"
-                name="phone"
-                placeholder="Enter Phone Number"
-              />
-            </div>
-
-            <div class="form-group">
-              <label for="age">Age :</label>
-              <input
-                type="number"
-                id="age"
-                name="age"
-                placeholder="Enter Your Age"
-              />
-            </div>
-          </div>
-
-          <!-- Row 3 -->
-          <div class="form-row">
-            <div class="form-group">
-              <label for="membership">Membership :</label>
-              <select name="membership" id="membership">
-                <option value="">---Select Membership---</option>
-                <option value="student">Student</option>
-                <option value="teacher">Teacher</option>
-                <option value="general-member">General Member</option>
-              </select>
-            </div>
-          </div>
-
-          <!-- Row 4 -->
-          <div class="form-row">
-            <div class="form-group">
-              <label>Gender :</label>
-
-              <div class="radio-options">
-                <div class="radio-item">
-                  <input type="radio" id="male" name="gender" value="male" />
-                  <label for="male">Male</label>
-                </div>
-
-                <div class="radio-item">
-                  <input
-                    type="radio"
-                    id="female"
-                    name="gender"
-                    value="female"
-                  />
-                  <label for="female">Female</label>
-                </div>
-
-                <div class="radio-item">
-                  <input type="radio" id="other" name="gender" value="other" />
-                  <label for="other">Other</label>
-                </div>
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label>Interests :</label>
-
-              <div class="checkbox-options">
-                <input
-                  type="checkbox"
-                  id="fiction"
-                  name="interests"
-                  value="fiction"
-                />
-                <label for="fiction">Fiction</label>
-
-                <input
-                  type="checkbox"
-                  id="technology"
-                  name="interests"
-                  value="technology"
-                />
-                <label for="technology">Technology</label>
-
-                <input
-                  type="checkbox"
-                  id="history"
-                  name="interests"
-                  value="history"
-                />
-                <label for="history">History</label>
-
-                <input
-                  type="checkbox"
-                  id="science"
-                  name="interests"
-                  value="science"
-                />
-                <label for="science">Science</label>
-              </div>
-            </div>
-          </div>
-
-          <!-- Row 5 -->
-          <div class="form-row">
-            <div class="form-group">
-              <label for="message">Reason for Joining :</label>
-
-              <textarea
-                id="message"
-                name="message"
-                rows="5"
-                placeholder="Why do you want to join our library?"
-              ></textarea>
-            </div>
-          </div>
-
-          <!-- Row 6 -->
-          <div class="form-row button-row">
-            <button type="submit">Join Membership</button>
-            <button type="reset">Clear Form</button>
-          </div>
-        </form>
+        <a href="./pages/membership.html"> Join Membership </a>
       </section>
 
       <!-- Contact -->
@@ -325,42 +193,41 @@
           <button type="reset">Clear</button>
         </form>
       </section>
-
-      <!-- Footer -->
-
-      <footer class="footer">
-        <div class="footer-container">
-          <div class="footer-about">
-            <h2>📚 Smart Library</h2>
-            <p>A place to read, learn, and grow with thousands of books.</p>
-          </div>
-
-          <div class="footer-links">
-            <h3>Quick Links</h3>
-            <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./pages/about.html">About</a></li>
-              <li><a href="./pages/books.html">Books</a></li>
-              <li><a href="./pages/membership.html">Membership</a></li>
-              <li><a href="./pages/contact.html">Contact</a></li>
-            </ul>
-          </div>
-
-          <div class="footer-contact">
-            <ul>
-              <h3>Get In Touch</h3>
-              <li>Email: smartlibrary@gmail.com</li>
-              <li>Phone: +91 9876543210</li>
-              <li>Address: India</li>
-            </ul>
-          </div>
-        </div>
-      </footer>
-
-      <div class="copyright">
-        <p>© 2026 Smart Library. All Rights Reserved.</p>
-      </div>
     </main>
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h2>📚 Smart Library</h2>
+          <p>A place to read, learn, and grow with thousands of books.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/books.html">Books</a></li>
+            <li><a href="./pages/membership.html">Membership</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <ul>
+            <h3>Get In Touch</h3>
+            <li>Email: smartlibrary@gmail.com</li>
+            <li>Phone: +91 9876543210</li>
+            <li>Address: India</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <p>© 2026 Smart Library. All Rights Reserved.</p>
+    </div>
     <script src="./js/script.js"></script>
   </body>
 </html>

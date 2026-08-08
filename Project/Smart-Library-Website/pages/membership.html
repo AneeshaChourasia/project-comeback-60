@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membership</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>📚 Smart Library</h1>
+
+      <p>Read • Learn • Grow</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/about.html">About</a></li>
+        <li><a href="../pages/books.html">Books</a></li>
+        <li><a href="./membership.html">Membership</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- Membership -->
+      <section class="membership-form">
+        <h2>Library Membership</h2>
+
+        <p>
+          Join our library today and explore thousands of books and digital
+          resources.
+        </p>
+
+        <form action="">
+          <!-- Row 1 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="userName">Full Name :</label>
+              <input
+                type="text"
+                id="userName"
+                name="userName"
+                placeholder="Enter your Full Name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email :</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter Email Address"
+              />
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="number">Phone Number :</label>
+              <input
+                type="tel"
+                id="number"
+                name="phone"
+                placeholder="Enter Phone Number"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age :</label>
+              <input
+                type="number"
+                id="age"
+                name="age"
+                placeholder="Enter Your Age"
+              />
+            </div>
+          </div>
+
+          <!-- Row 3 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="membership">Membership :</label>
+              <select name="membership" id="membership">
+                <option value="">---Select Membership---</option>
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="general-member">General Member</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Row 4 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label>Gender :</label>
+
+              <div class="radio-options">
+                <div class="radio-item">
+                  <input type="radio" id="male" name="gender" value="male" />
+                  <label for="male">Male</label>
+                </div>
+
+                <div class="radio-item">
+                  <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="female"
+                  />
+                  <label for="female">Female</label>
+                </div>
+
+                <div class="radio-item">
+                  <input type="radio" id="other" name="gender" value="other" />
+                  <label for="other">Other</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Interests :</label>
+
+              <div class="checkbox-options">
+                <input
+                  type="checkbox"
+                  id="fiction"
+                  name="interests"
+                  value="fiction"
+                />
+                <label for="fiction">Fiction</label>
+
+                <input
+                  type="checkbox"
+                  id="technology"
+                  name="interests"
+                  value="technology"
+                />
+                <label for="technology">Technology</label>
+
+                <input
+                  type="checkbox"
+                  id="history"
+                  name="interests"
+                  value="history"
+                />
+                <label for="history">History</label>
+
+                <input
+                  type="checkbox"
+                  id="science"
+                  name="interests"
+                  value="science"
+                />
+                <label for="science">Science</label>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 5 -->
+          <div class="form-row">
+            <div class="form-group">
+              <label for="message">Reason for Joining :</label>
+
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Why do you want to join our library?"
+              ></textarea>
+            </div>
+          </div>
+
+          <!-- Row 6 -->
+          <div class="form-row button-row">
+            <button type="submit">Join Membership</button>
+            <button type="reset">Clear Form</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-about">
+          <h2>📚 Smart Library</h2>
+          <p>A place to read, learn, and grow with thousands of books.</p>
+        </div>
+
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/about.html">About</a></li>
+            <li><a href="./pages/books.html">Books</a></li>
+            <li><a href="./pages/membership.html">Membership</a></li>
+            <li><a href="./pages/contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <ul>
+            <h3>Get In Touch</h3>
+            <li>Email: smartlibrary@gmail.com</li>
+            <li>Phone: +91 9876543210</li>
+            <li>Address: India</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <p>© 2026 Smart Library. All Rights Reserved.</p>
+    </div>
+  </body>
+</html>

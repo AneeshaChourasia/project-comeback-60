@@ -578,7 +578,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 19 (06 Aug 2026)
+## ✅ Day 20 (06 Aug 2026)
 
 ### CSS
 
@@ -598,5 +598,27 @@ Advanced Functions
   - replace()
   - replaceAll()
   - slice()
+
+---
+
+---
+
+## ✅ Day 21 (07 Aug 2026)
+
+### Project (Smart Library Website)
+
+- CSS Variables (:root) added
+- Removed unnecessary duplicate CSS properties
+- Improved color consistency using variables
+- Redesigned About section for Home Page
+- Added "Learn More" button with arrow icon
+- Reviewed and improved Hero section UI
+- Kept Featured Books section unchanged
+- Moved Membership Form to membership.html
+- Created Membership CTA section on Home Page
+- Added background image to Membership CTA
+- Improved Membership CTA UI and styling
+- Planned Home Page structure based on project roadmap
+- Reviewed Navigation UI and hover effects
 
 ---
