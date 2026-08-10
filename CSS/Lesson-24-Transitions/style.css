@@ -1,0 +1,50 @@
+.card {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid lightblue;
+  border-radius: 16px;
+  background-color: lightpink;
+  margin: 20px;
+
+  transition-property: background-color, border-color, box-shadow;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.card:hover {
+  background-color: lavender;
+  border-color: royalblue;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+  text-align: center;
+  color: blue;
+  margin-bottom: 10px;
+}
+
+.card p {
+  text-align: justify;
+  color: #222;
+}
+
+.card button {
+  background-color: royalblue;
+  color: white;
+  font-size: 16px;
+  padding: 15px;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  margin: 20px;
+
+  transition-property: background-color, color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+}
+
+.card button:hover {
+  background-color: white;
+  color: royalblue;
+  border-color: royalblue;
+}

@@ -121,3 +121,66 @@ console.log(supportEmail.slice(5));
 let documentFile = "resume.pdf";
 
 console.log(documentFile.slice(-4));
+
+// Lesson 12: String Methods (Part 3)
+
+// charAt()
+
+let word = "JavaScript";
+
+console.log(word.charAt(0));
+
+console.log(word.charAt(5));
+
+console.log(word.charAt(word.length - 1));
+
+// indexOf()
+
+console.log(word.indexOf("a"));
+
+console.log(word.indexOf("Script"));
+
+console.log(word.indexOf("z"));
+
+// lastIndexOf()
+
+console.log(word.lastIndexOf("a"));
+
+console.log(word.lastIndexOf("Script"));
+
+console.log(word.lastIndexOf("x"));
+
+// subString()
+
+console.log(word.substring(4, 10));
+
+console.log(word.substring(0, 4));
+
+console.log(word.substring(4, 6));
+
+console.log(word.substring());
+
+// start > end → automatically swap
+
+console.log(word.substring(4, 6));
+
+console.log(word.substring(6, 4));
+
+console.log(word.substring(3, 7));
+
+// split()
+
+let skills = "HTML,CSS,JavaScript,React";
+
+console.log(skills.split(","));
+
+let text = "I love JavaScript";
+
+console.log(text.split(" "));
+
+// concat()
+
+let first = "Aneesha";
+let lastName = "Chourasia";
+
+console.log(first.concat(" ", lastName));

@@ -74,7 +74,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 21     | Tables                         | ✅     |
 | 22     | Pseudo Classes                 | ✅     |
 | 23     | Pseudo Elements                | ✅     |
-| 24     | Transitions                    | ⏳     |
+| 24     | Transitions                    | ✅     |
 | 25     | Transform                      | ⏳     |
 | 26     | Animations                     | ⏳     |
 | 27     | Responsive Design              | ⏳     |
@@ -97,7 +97,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 09     | Arrays (Basics + Methods)                 | ✅     |
 | 10     | Advanced Arrays                           | ✅     |
 | 11     | Objects                                   | ✅     |
-| 12     | String Methods                            | 🔄     |
+| 12     | String Methods                            | ✅     |
 | 13     | Number & Math Methods                     | ⏳     |
 | 14     | Date Object                               | ⏳     |
 | 15     | DOM Manipulation                          | ⏳     |
@@ -207,5 +207,3 @@ This helps improve:
 ---
 
 ⭐ **This document is updated regularly as I continue my Project Comeback 60 journey.**
-
-

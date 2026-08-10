@@ -601,8 +601,6 @@ Advanced Functions
 
 ---
 
----
-
 ## ✅ Day 21 (07 Aug 2026)
 
 ### Project (Smart Library Website)
@@ -650,3 +648,26 @@ Advanced Functions
 - 5 Interview Questions & Answers — ✅ Complete
 
 ---
+
+## ✅ Day 23 (10 August 2026)
+
+### CSS
+
+- Transition
+  - transition
+  - transition-property
+  - transition-duration
+  - transition-delay
+  - transition-timing-function
+  - Multiple property transitions
+  - Hover transition effects
+
+#### JavaScript Topics
+
+- String Methods — Part 3
+  - charAt()
+  - indexOf()
+  - lastIndexOf()
+  - substring()
+  - split()
+  - concat()
