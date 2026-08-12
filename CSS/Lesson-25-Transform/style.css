@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 32px;
+  color: white;
+  background-color: royalblue;
+  padding: 16px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.card {
+  width: 250px;
+  height: 150px;
+  background-color: lightcoral;
+  border: 2px solid rgb(189, 69, 69);
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  transition: transform 0.5s;
+}
+
+.translate:hover {
+  transform: translate(50px, 20px);
+}
+
+.rotate:hover {
+  transform: rotate(15deg);
+}
+
+.scale:hover {
+  transform: scale(1.2);
+}
+
+.skew:hover {
+  transform: skewX(15deg);
+}
+
+.multiple:hover {
+  transform: translateX(30px) rotate(10deg) scale(1.1);
+}

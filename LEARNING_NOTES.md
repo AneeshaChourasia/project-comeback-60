@@ -662,7 +662,7 @@ Advanced Functions
   - Multiple property transitions
   - Hover transition effects
 
-#### JavaScript Topics
+### JavaScript Topics
 
 - String Methods — Part 3
   - charAt()
@@ -671,3 +671,23 @@ Advanced Functions
   - substring()
   - split()
   - concat()
+
+## ✅ Day 24 (11 August 2026)
+
+### CSS
+
+- Transform
+  - translate()
+  - translateX()
+  - translateY()
+  - translate3d()
+  - rotate()
+  - scale()
+  - scaleX()
+  - scaleY()
+  - skew()
+  - skewX()
+  - skewY()
+  - Multiple transform functions
+  - transform with :hover
+  - transform with transition
