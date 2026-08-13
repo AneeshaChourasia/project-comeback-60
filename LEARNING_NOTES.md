@@ -720,3 +720,51 @@ Advanced Functions
   - max()
 
 ---
+
+## ✅ Day 26 (13 August 2026)
+
+### JavaScript
+
+- Debugging & Revision
+  - Number Methods
+    - Number()
+    - parseInt()
+    - parseFloat()
+    - isNaN()
+    - isFinite()
+    - toFixed ()
+  - Math Methods
+    - round()
+    - floor()
+    - ceil()
+    - trunc()
+    - abs()
+    - random()
+    - max()
+  - Debugging logic
+  - Identifying bugs from requirements
+  - Comparing current output with expected output
+  - Fixing decimal and number conversion issues
+
+### HTML
+
+- Debugging & Revision
+  - Anchor links
+  - target="\_blank"
+  - Identifying missing HTML attributes
+
+### CSS
+
+- Debugging & Revision
+  - Flexbox
+    - justify-content
+    - align-items
+    - gap
+  - :hover
+  - box-sizing
+    - content-box
+    - border-box
+  - Box Model
+  - Requirement-based debugging
+
+---
