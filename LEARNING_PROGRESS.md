@@ -98,7 +98,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 10     | Advanced Arrays                           | ✅     |
 | 11     | Objects                                   | ✅     |
 | 12     | String Methods                            | ✅     |
-| 13     | Number & Math Methods                     | ⏳     |
+| 13     | Number & Math Methods                     | ⏸️     |
 | 14     | Date Object                               | ⏳     |
 | 15     | DOM Manipulation                          | ⏳     |
 | 16     | Events                                    | ⏳     |

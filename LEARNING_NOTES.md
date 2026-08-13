@@ -691,3 +691,32 @@ Advanced Functions
   - Multiple transform functions
   - transform with :hover
   - transform with transition
+
+### JavaScript
+
+- Number Methods
+  - Number()
+  - parseInt()
+  - parseFloat()
+  - isNaN()
+
+---
+
+## ✅ Day 25 (12 August 2026)
+
+### JavaScript
+
+- Number Methods
+  - isFinite()
+  - toFixed()
+
+- Math Methods
+  - round()
+  - floor()
+  - ceil()
+  - trunc()
+  - abs()
+  - random()
+  - max()
+
+---
