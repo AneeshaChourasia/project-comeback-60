@@ -161,8 +161,16 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 - Join Our Library CTA Section
 - Footer
 
+### Books Web Page
+
+- Hero Section completed
+- Browse by Categories Section completed
+- 8 Book Categories added
+- UI styling completed
+
 ### ⏳ Upcoming
 
+- Book Cards Section
 - Responsive Design
 - JavaScript Functionality
 - Form Validation

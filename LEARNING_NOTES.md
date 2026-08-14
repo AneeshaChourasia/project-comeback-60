@@ -768,3 +768,19 @@ Advanced Functions
   - Requirement-based debugging
 
 ---
+
+## ✅ Day 27 (14 August 2026)
+
+💻 Project Day — Smart Library
+
+- Created books.html
+- Completed Hero Section
+- Created Categories Section
+- Added 8 book categories with icons
+- Styled category cards
+
+🚧 Next
+
+- Book Cards Section
+
+---

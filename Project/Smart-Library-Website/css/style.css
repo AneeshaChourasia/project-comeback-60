@@ -826,3 +826,144 @@ button:hover {
 .join-library a:hover {
   background-color: var(--secondary-color);
 }
+
+/* Books Web Page */
+
+.book_hero {
+  min-height: 500px;
+
+  background-image: url(../images/book_hero_image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  padding: 40px 120px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.book_hero h3 {
+  color: blue;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+}
+
+.book_hero h1 {
+  font-size: 52px;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.book_hero h1 span {
+  display: block;
+  color: blue;
+}
+
+.book_hero p {
+  color: var(--text-color);
+  font-size: 18px;
+  line-height: 1.5;
+  width: 38%;
+  margin: 15px 0 20px;
+}
+
+.book_hero a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+
+  text-decoration: none;
+  font-size: 16px;
+  color: var(--white-color);
+
+  background-color: #1e3a8a;
+  padding: 12px 20px;
+  border-radius: 8px;
+}
+
+.book_categories {
+  padding: 50px 120px;
+  text-align: center;
+}
+
+.book_categories h2 {
+  color: var(--primary-color);
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.categories_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.categories_card {
+  width: 150px;
+  min-height: 80px;
+
+  padding: 14px 16px;
+
+  background-color: var(--white-color);
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.categories_card i {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.all-books i {
+  color: #6366f1;
+}
+
+.fiction i {
+  color: #ec4899;
+}
+
+.self-help i {
+  color: #f59e0b;
+}
+
+.programming i {
+  color: #10b981;
+}
+
+.business i {
+  color: #3b82f6;
+}
+
+.biography i {
+  color: #8b5cf6;
+}
+
+.science i {
+  color: #06b6d4;
+}
+
+.history i {
+  color: #f97316;
+}
+
+.categories_card h3 {
+  font-size: 15px;
+  color: var(--text-color);
+  margin: 0;
+}
+
+.categories_card:hover {
+  border: 1px solid var(--secondary-color);
+}
