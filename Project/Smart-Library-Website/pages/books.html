@@ -12,22 +12,35 @@
   </head>
   <body>
     <!-- Header -->
+
     <header>
-      <h1>📚 Smart Library</h1>
+      <div class="header-container">
+        <div class="brand">
+          <i class="fa-solid fa-book-open"></i>
+          <div class="brand-info">
+            <h2>SMART <span>LIBRARY</span></h2>
+            <p>Read More, Grow More</p>
+          </div>
+        </div>
 
-      <p>Read • Learn • Grow</p>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="./books.html">Books</a></li>
+            <li><a href="../pages/membership.html">Membership</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Search books..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
     </header>
-
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./books.html">Books</a></li>
-        <li><a href="./membership.html">Membership</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
-    </nav>
 
     <main>
       <section class="book_hero">
@@ -88,36 +101,245 @@
           </div>
         </div>
       </section>
+
+      <section class="books-section">
+        <div class="books-heading">
+          <div>
+            <h2>All Books</h2>
+            <span>Showing 9 books</span>
+          </div>
+        </div>
+
+        <div class="library-books-container">
+          <!-- 1. Atomic Habits -->
+          <div class="library-book-card">
+            <img src="../images/atomic_habits.webp" alt="Atomic Habits" />
+
+            <span class="book-category category-self-help">Self-Help</span>
+
+            <h3>Atomic Habits</h3>
+            <p>James Clear</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 2. The Alchemist -->
+          <div class="library-book-card">
+            <img src="../images/the_alchemist.webp" alt="The Alchemist" />
+
+            <span class="book-category category-fiction">Fiction</span>
+
+            <h3>The Alchemist</h3>
+            <p>Paulo Coelho</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 3. Clean Code -->
+          <div class="library-book-card">
+            <img src="../images/clean_code.webp" alt="Clean Code" />
+
+            <span class="book-category category-programming">Programming</span>
+
+            <h3>Clean Code</h3>
+            <p>Robert C. Martin</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 4. Rich Dad Poor Dad -->
+          <div class="library-book-card">
+            <img
+              src="../images/rich_dad_poor_dad.webp"
+              alt="Rich Dad Poor Dad"
+            />
+
+            <span class="book-category category-finance">Finance</span>
+
+            <h3>Rich Dad Poor Dad</h3>
+            <p>Robert T. Kiyosaki</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 5. The Psychology of Money -->
+          <div class="library-book-card">
+            <img
+              src="../images/the_psychology_of_money.webp"
+              alt="The Psychology of Money"
+            />
+
+            <span class="book-category category-finance">Finance</span>
+
+            <h3>The Psychology of Money</h3>
+            <p>Morgan Housel</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 6. Sapiens -->
+          <div class="library-book-card">
+            <img src="../images/sapiens.webp" alt="Sapiens" />
+
+            <span class="book-category category-history">History</span>
+
+            <h3>Sapiens</h3>
+            <p>Yuval Noah Harari</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 7. The 5 AM Club -->
+          <div class="library-book-card">
+            <img src="../images/the_5am_club.webp" alt="The 5 AM Club" />
+
+            <span class="book-category category-self-help">Self-Help</span>
+
+            <h3>The 5 AM Club</h3>
+            <p>Robin Sharma</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 8. From Zero to Millionaire -->
+          <div class="library-book-card">
+            <img
+              src="../images/from_zero_to_millionare.webp"
+              alt="From Zero to Millionaire"
+            />
+
+            <span class="book-category category-business">Business</span>
+
+            <h3>From Zero to Millionaire</h3>
+            <p>Ryan Daniel Moran</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+
+          <!-- 9. The Subtle Art of Not Giving A F*ck -->
+          <div class="library-book-card">
+            <img
+              src="../images/the_fack"
+              alt="The Subtle Art of Not Giving A F*ck"
+            />
+
+            <span class="book-category category-self-help">Self-Help</span>
+
+            <h3>The Subtle Art of Not Giving A F*ck</h3>
+            <p>Mark Manson</p>
+
+            <div class="book-card-actions">
+              <a href="#">View Details</a>
+              <i class="fa-regular fa-heart"></i>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
 
     <footer class="footer">
       <div class="footer-container">
+        <!-- About -->
         <div class="footer-about">
-          <h2>📚 Smart Library</h2>
-          <p>A place to read, learn, and grow with thousands of books.</p>
+          <h2>
+            <i class="fa-solid fa-book-open"></i>
+            Smart Library
+          </h2>
+
+          <p>
+            Empowering minds through books.<br />
+            Read more, learn more, grow more.
+          </p>
+
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
 
+        <!-- Quick Links -->
         <div class="footer-links">
           <h3>Quick Links</h3>
+
           <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./pages/about.html">About</a></li>
-            <li><a href="./pages/books.html">Books</a></li>
-            <li><a href="./pages/membership.html">Membership</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About Us</a></li>
+            <li><a href="./books.html">Books</a></li>
+            <li><a href="../pages/membership.html">Membership</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
           </ul>
         </div>
 
-        <div class="footer-contact">
+        <!-- Categories -->
+        <div class="footer-categories">
+          <h3>Categories</h3>
+
           <ul>
-            <h3>Get In Touch</h3>
-            <li>Email: smartlibrary@gmail.com</li>
-            <li>Phone: +91 9876543210</li>
-            <li>Address: India</li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Self-Help</a></li>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Biography</a></li>
           </ul>
         </div>
+
+        <!-- Help & Support -->
+        <div class="footer-support">
+          <h3>Help &amp; Support</h3>
+
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+
+          <p>Subscribe to get updates about new books and offers.</p>
+
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Smart Library. All rights reserved.</p>
       </div>
     </footer>
   </body>

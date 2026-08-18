@@ -163,14 +163,16 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 
 ### Books Web Page
 
-- Hero Section completed
-- Browse by Categories Section completed
-- 8 Book Categories added
-- UI styling completed
+- Hero Section
+- Browse by Categories Section
+- 8 Book Categories
+- Book Cards Section
+- Book Card UI Styling
+- Header & Navigation
+- Footer
 
 ### ⏳ Upcoming
 
-- Book Cards Section
 - Responsive Design
 - JavaScript Functionality
 - Form Validation

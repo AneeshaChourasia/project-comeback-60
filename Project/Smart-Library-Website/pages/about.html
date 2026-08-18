@@ -5,26 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="icon" href="../images/logo.jpg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
     <title>About</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <h1>📚 Smart Library</h1>
+      <div class="header-container">
+        <div class="brand">
+          <i class="fa-solid fa-book-open"></i>
+          <div class="brand-info">
+            <h2>SMART <span>LIBRARY</span></h2>
+            <p>Read More, Grow More</p>
+          </div>
+        </div>
 
-      <p>Read • Learn • Grow</p>
+        <nav>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="../pages/books.html">Books</a></li>
+            <li><a href="../pages/membership.html">Membership</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <div class="search-box">
+            <input type="text" placeholder="Search books..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
     </header>
-
-    <!-- Navigation -->
-    <nav>
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../pages/about.html">About</a></li>
-        <li><a href="../pages/books.html">Books</a></li>
-        <li><a href="../pages/membership.html">Membership</a></li>
-        <li><a href="../pages/contact.html">Contact</a></li>
-      </ul>
-    </nav>
 
     <main>
       <section class="about-hero">
@@ -249,35 +265,82 @@
 
     <footer class="footer">
       <div class="footer-container">
+        <!-- About -->
         <div class="footer-about">
-          <h2>📚 Smart Library</h2>
-          <p>A place to read, learn, and grow with thousands of books.</p>
+          <h2>
+            <i class="fa-solid fa-book-open"></i>
+            Smart Library
+          </h2>
+
+          <p>
+            Empowering minds through books.<br />
+            Read more, learn more, grow more.
+          </p>
+
+          <div class="footer-social">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
         </div>
 
+        <!-- Quick Links -->
         <div class="footer-links">
           <h3>Quick Links</h3>
+
           <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="./about.html">About Us</a></li>
             <li><a href="../pages/books.html">Books</a></li>
             <li><a href="../pages/membership.html">Membership</a></li>
             <li><a href="../pages/contact.html">Contact</a></li>
           </ul>
         </div>
 
-        <div class="footer-contact">
+        <!-- Categories -->
+        <div class="footer-categories">
+          <h3>Categories</h3>
+
           <ul>
-            <h3>Get In Touch</h3>
-            <li>Email: smartlibrary@gmail.com</li>
-            <li>Phone: +91 9876543210</li>
-            <li>Address: India</li>
+            <li><a href="#">Fiction</a></li>
+            <li><a href="#">Self-Help</a></li>
+            <li><a href="#">Programming</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Biography</a></li>
           </ul>
         </div>
+
+        <!-- Help & Support -->
+        <div class="footer-support">
+          <h3>Help &amp; Support</h3>
+
+          <ul>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter -->
+        <div class="footer-newsletter">
+          <h3>Newsletter</h3>
+
+          <p>Subscribe to get updates about new books and offers.</p>
+
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email" />
+            <button type="button">Subscribe</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 Smart Library. All rights reserved.</p>
       </div>
     </footer>
-
-    <div class="copyright">
-      <p>© 2026 Smart Library. All Rights Reserved.</p>
-    </div>
   </body>
 </html>
