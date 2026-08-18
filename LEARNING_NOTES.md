@@ -784,3 +784,19 @@ Advanced Functions
 - Book Cards Section
 
 ---
+
+## ✅ Day 28 (16 August 2026)
+
+- parseInt() vs parseFloat()
+- Number()
+- Math.abs()
+- Math.round()
+- Math.trunc()
+- Math.ceil()
+- negative values
+- debugging questions
+- JavaScript practice
+
+---
+
+
