@@ -6,7 +6,7 @@ This document contains my complete day-wise learning journey for **Project Comeb
 
 # 📅 Day-wise Learning
 
-## ✅ Day 1
+## ✅ Day 1 (02 July 2026)
 
 ### HTML
 
@@ -45,7 +45,7 @@ This document contains my complete day-wise learning journey for **Project Comeb
 
 ---
 
-## ✅ Day 2
+## ✅ Day 2 (04 July 2026)
 
 ### HTML
 
@@ -127,7 +127,7 @@ Features:
 
 ---
 
-## ✅ Day 3
+## ✅ Day 3 (07 July 2026)
 
 ### HTML
 
@@ -160,7 +160,7 @@ Features:
 
 ---
 
-## ✅ Day 4
+## ✅ Day 4 (08 July 2026)
 
 ### HTML
 
@@ -186,7 +186,7 @@ Features:
 
 ---
 
-## ✅ Day 5
+## ✅ Day 5 (11 July 2026)
 
 ### CSS
 
@@ -198,7 +198,7 @@ Features:
 
 ---
 
-## ✅ Day 6
+## ✅ Day 6 (12 July 2026)
 
 ### HTML
 
@@ -218,7 +218,7 @@ Features:
 
 ---
 
-## ✅ Day 7
+## ✅ Day 7 (13 July 2026)
 
 ### CSS
 
@@ -235,7 +235,7 @@ Features:
 
 ---
 
-## ✅ Day 8
+## ✅ Day 8 (14 July 2026)
 
 ### HTML
 
@@ -268,7 +268,7 @@ Features:
 
 ---
 
-## ✅ Day 9
+## ✅ Day 9 (24 July 2026)
 
 ### Project
 
@@ -285,7 +285,7 @@ Completed:
 
 ---
 
-## ✅ Day 10
+## ✅ Day 10 (25 July 2026)
 
 ### HTML
 
@@ -319,7 +319,7 @@ Completed:
 
 ---
 
-## ✅ Day 11
+## ✅ Day 11 (27 July 2026)
 
 ### JavaScript
 
@@ -333,7 +333,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 12
+## ✅ Day 12 (28 July 2026)
 
 ### HTML
 
@@ -368,7 +368,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 13
+## ✅ Day 13 (29 July 2026)
 
 ### HTML
 
@@ -407,7 +407,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 14
+## ✅ Day 14 (31 July 2026)
 
 ### HTML
 
@@ -450,7 +450,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 15
+## ✅ Day 15 (01 Aug 2026)
 
 ### Project
 
@@ -464,7 +464,7 @@ Advanced Functions
 
 ---
 
-## ✅ Day 16
+## ✅ Day 16 (02 Aug 2026)
 
 ### Git & GitHub
 
@@ -810,4 +810,30 @@ Advanced Functions
 
 ---
 
+---
 
+## ✅ Day 30 (19 August 2026)
+
+🎨 CSS — Animation
+
+- `@keyframes`
+- Animation Properties
+- Animation Shorthand
+- Percentage-based Animation
+- Animation Practice Challenge
+
+🎨 Mini Project — Started
+
+- Animation Showcase Structure
+- Basic CSS Styling
+- Color Change Animation
+
+🚧 Next
+
+- Rotate
+- Move
+- Image Zoom
+- Bounce
+- Complete Mini Project
+
+---

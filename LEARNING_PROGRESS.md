@@ -76,7 +76,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 23     | Pseudo Elements                | ✅     |
 | 24     | Transitions                    | ✅     |
 | 25     | Transform                      | ✅     |
-| 26     | Animations                     | ⏳     |
+| 26     | Animations                     | ⏸️     |
 | 27     | Responsive Design              | ⏳     |
 | 28     | Media Queries                  | ⏳     |
 

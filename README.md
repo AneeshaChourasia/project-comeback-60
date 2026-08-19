@@ -153,6 +153,7 @@ Each practice folder includes:
 | Day 27 | ✅     |
 | Day 28 | ✅     |
 | Day 29 | ✅     |
+| Day 30 | ⏸️     |
 
 ---
 
