@@ -83,3 +83,32 @@ console.log(Math.random());
 
 console.log(Math.max(10, 25, 5, 40));
 console.log(Math.max(-10, -5, -20));
+
+// 8. Math.min()
+
+console.log(Math.min(10, 50, 3, 44));
+console.log(Math.min(-2, 0, -5, -8));
+
+// 9. Math.pow(base, exponent);
+
+console.log(Math.pow(3, 2));
+console.log(Math.pow(4, 3));
+console.log(Math.pow(10, 2));
+
+// 10. Math.sqrt(number); => square root return karta hai.
+
+console.log(Math.sqrt(16));
+console.log(Math.sqrt(81));
+console.log(Math.sqrt(100));
+
+// 11. Math.cbrt(number); => cube root return karta hai.
+
+console.log(Math.cbrt(8));
+console.log(Math.cbrt(125));
+console.log(Math.cbrt(1000));
+
+// 12. Math.sign() =>"{ +ve = 1 , -ve = -1 , 0 = 0 }"
+
+console.log(Math.sign(100));
+console.log(Math.sign(-20));
+console.log(Math.sign(0));

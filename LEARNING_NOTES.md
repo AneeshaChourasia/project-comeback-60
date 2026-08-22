@@ -810,9 +810,7 @@ Advanced Functions
 
 ---
 
----
-
-## ✅ Day 30 (19 August 2026)
+## 🟡 Day 30 (19 August 2026)
 
 🎨 CSS — Animation
 
@@ -821,19 +819,37 @@ Advanced Functions
 - Animation Shorthand
 - Percentage-based Animation
 - Animation Practice Challenge
-
-🎨 Mini Project — Started
-
 - Animation Showcase Structure
 - Basic CSS Styling
 - Color Change Animation
 
 🚧 Next
 
+- Continue Animation Practice
 - Rotate
 - Move
 - Image Zoom
 - Bounce
-- Complete Mini Project
+
+---
+
+## ✅ Day 30 Continued (22 August 2026)
+
+🎨 CSS — Animation
+
+- Rotate Animation
+- Move Animation
+- Image Zoom In / Out
+- Bounce Animation
+- CSS Animation Practice Completed
+
+## JavaScript — Math Methods
+
+- Math Methods
+- `Math.min()`
+- `Math.pow()`
+- `Math.sqrt()`
+- `Math.cbrt()`
+- `Math.sign()`
 
 ---

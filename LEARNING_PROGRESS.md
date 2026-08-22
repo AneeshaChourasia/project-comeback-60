@@ -76,7 +76,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 23     | Pseudo Elements                | ✅     |
 | 24     | Transitions                    | ✅     |
 | 25     | Transform                      | ✅     |
-| 26     | Animations                     | ⏸️     |
+| 26     | Animations                     | ✅     |
 | 27     | Responsive Design              | ⏳     |
 | 28     | Media Queries                  | ⏳     |
 
@@ -98,7 +98,7 @@ The remaining commonly used HTML concepts were covered as a catch-up without cha
 | 10     | Advanced Arrays                           | ✅     |
 | 11     | Objects                                   | ✅     |
 | 12     | String Methods                            | ✅     |
-| 13     | Number & Math Methods                     | ⏸️     |
+| 13     | Number & Math Methods                     | ✅     |
 | 14     | Date Object                               | ⏳     |
 | 15     | DOM Manipulation                          | ⏳     |
 | 16     | Events                                    | ⏳     |
